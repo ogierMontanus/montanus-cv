@@ -1,0 +1,42 @@
+---
+layout: _includes/base.njk
+---
+<h2>Articles and Chapters</h2>
+
+{% set articles = publications | filterByType("journal-article", "book-chapter", "dissertation") | filterByFlag("include_on_site") | sortByYear %}
+
+{% if articles.length == 0 %}
+<p class="placeholder-note">
+  Publication list is populated from ORCID. Run <code>python3 scripts/sync_orcid.py</code>
+  locally to fetch the full list, then commit <code>data/publications.yaml</code>.
+</p>
+{% endif %}
+
+{% set decades = articles | groupByDecade %}
+{% for decade, items in decades %}
+<section class="decade-group">
+  <h3>{{ decade }}</h3>
+  <ul class="pub-list">
+    {% for pub in items %}
+    <li class="pub-item">
+      <span class="pub-year">{{ pub.year }}</span>
+      <span class="pub-title">
+        {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener"><em>{{ pub.title }}</em></a>
+        {% else %}<em>{{ pub.title }}</em>{% endif %}
+      </span>
+      {% if pub.container_title %}
+      <span class="pub-venue">{{ pub.container_title }}</span>
+      {% endif %}
+      {% if pub.contributors %}
+      <span class="pub-contributors">{{ pub.contributors | join(", ") }}</span>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>
+{% endfor %}
+
+<p class="orcid-link">
+  Full bibliography on
+  <a href="https://orcid.org/0000-0002-8496-7221" target="_blank" rel="noopener">ORCID</a>.
+</p>

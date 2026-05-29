@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }} — {% endif %}Holger Berg, historian</title>
+  <meta name="description" content="Academic website of Holger Berg (Nils Holger Nemeth Berg), historian at the University of Southern Denmark.">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="site-title">
+        <a href="/">Holger Berg, historian</a>
+      </div>
+    </div>
+  </header>
+
+  <nav class="site-nav">
+    <ul>
+      <li{% if page.url == "/" %} class="active"{% endif %}><a href="/">Home</a></li>
+      <li{% if page.url == "/books/" %} class="active"{% endif %}><a href="/books/">Books</a></li>
+      <li{% if page.url == "/articles/" %} class="active"{% endif %}><a href="/articles/">Articles</a></li>
+      <li{% if page.url == "/editions/" %} class="active"{% endif %}><a href="/editions/">Editions</a></li>
+      <li{% if page.url == "/museum-work/" %} class="active"{% endif %}><a href="/museum-work/">Museum work</a></li>
+      <li{% if page.url == "/cv/" %} class="active"{% endif %}><a href="/cv/">Curriculum vitae</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-layout">
+    <aside class="sidebar">
+      <h3>Library catalogues</h3>
+      <p>Search for titles in one of the following meta-catalogues:</p>
+      <ul>
+        <li><a href="http://www.ubka.uni-karlsruhe.de/kvk_en.html" target="_blank" rel="noopener">KVK</a> (polyglot)</li>
+        <li><a href="https://www.worldcat.org/advancedsearch" target="_blank" rel="noopener">WorldCat</a></li>
+      </ul>
+      <hr>
+      <p><a href="https://orcid.org/0000-0002-8496-7221" target="_blank" rel="noopener">ORCID profile</a></p>
+    </aside>
+
+    <main class="main-content">
+      {{ content | safe }}
+    </main>
+  </div>
+
+  <footer class="site-footer">
+    <p>Holger Berg · University of Southern Denmark ·
+       <a href="mailto:nh@sdu.dk">nh@sdu.dk</a></p>
+  </footer>
+</body>
+</html>

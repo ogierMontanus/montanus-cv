@@ -1,0 +1,69 @@
+---
+layout: _includes/base.njk
+---
+<h2>Curriculum Vitae</h2>
+
+<section class="cv-section">
+  <h3>Education</h3>
+  <dl class="cv-list">
+    {% for item in cv.education %}
+    <div class="cv-entry">
+      <dt class="cv-year">{{ item.year or item.years }}</dt>
+      <dd class="cv-detail">
+        <strong>{{ item.degree }}</strong><br>
+        {{ item.institution }}
+        {% if item.note %}<br><em>{{ item.note }}</em>{% endif %}
+      </dd>
+    </div>
+    {% endfor %}
+  </dl>
+</section>
+
+<section class="cv-section">
+  <h3>Vocational Experience</h3>
+  <dl class="cv-list">
+    {% for item in cv.positions %}
+    <div class="cv-entry">
+      <dt class="cv-year">{{ item.year or item.years }}</dt>
+      <dd class="cv-detail">
+        <strong>{{ item.role }}</strong><br>
+        {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.institution }}</a>
+        {% else %}{{ item.institution }}{% endif %}
+        {% if item.note %}<br><em>{{ item.note }}</em>{% endif %}
+      </dd>
+    </div>
+    {% endfor %}
+  </dl>
+</section>
+
+<section class="cv-section">
+  <h3>Awards and Memberships</h3>
+  <dl class="cv-list">
+    {% for item in cv.awards %}
+    <div class="cv-entry">
+      <dt class="cv-year">{{ item.year or item.years }}</dt>
+      <dd class="cv-detail">
+        {% if item.url %}<a href="{{ item.url }}" target="_blank" rel="noopener">{{ item.description }}</a>
+        {% else %}{{ item.description }}{% endif %}
+      </dd>
+    </div>
+    {% endfor %}
+  </dl>
+</section>
+
+<section class="cv-section">
+  <h3>Languages</h3>
+  <dl class="cv-list">
+    {% for item in cv.languages %}
+    <div class="cv-entry">
+      <dt class="cv-year">{{ item.level }}</dt>
+      <dd class="cv-detail">{{ item.languages | join(", ") }}</dd>
+    </div>
+    {% endfor %}
+  </dl>
+</section>
+
+<section class="cv-section">
+  <h3>Computer Skills</h3>
+  <p>{{ cv.skills | join("; ") }}</p>
+</section>

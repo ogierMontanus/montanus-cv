@@ -1,0 +1,112 @@
+personal:
+  name: "Nils Holger Nemeth Berg (Holger Berg)"
+  born: 1979
+  institution: "Hans Christian Andersen Centre, University of Southern Denmark"
+  email: "nh@sdu.dk"
+  orcid: "0000-0002-8496-7221"
+
+education:
+  - year: 2013
+    degree: "Course in Dynamic Web Design"
+    institution: "IT-University, Copenhagen"
+  - year: 2012
+    degree: "Minor in German Studies"
+    institution: "University of Southern Denmark, Odense"
+    note: "average 11.8 on a scale of 12"
+  - year: 2008
+    degree: "Ph.D. in History"
+    institution: "European University Institute, Florence, Italy"
+  - year: 2004
+    degree: "M.A. in European History and Historical Anthropology"
+    institution: "University of Erfurt, Germany"
+    note: "average 1.2 on a scale of 5"
+  - year: 2002
+    degree: "B.A. in History"
+    institution: "University of Copenhagen"
+    note: "average 12.3 on a scale of 13"
+  - years: "1998–1999"
+    degree: "Military service"
+    institution: "Danish Army"
+  - year: 1998
+    degree: "High school degree"
+    institution: "Vordingborg Gymnasium"
+    note: "average 10.3 on a scale of 13"
+
+positions:
+  - years: "2017–"
+    role: "Researcher"
+    institution: "Hans Christian Andersen Centre, University of Southern Denmark, Odense"
+    note: "part time"
+    url: "http://andersen.sdu.dk"
+  - years: "2011–"
+    role: "Researcher (edition philologist)"
+    institution: "Grundtvig Study Center, Aarhus University, based at Vartov, Copenhagen"
+    note: "since 2017 part time"
+    url: "http://www.grundtvigcenteret.dk/"
+  - years: "2010–2011"
+    role: "Website editor"
+    institution: "Centre for Contemporary Middle East Studies, University of Southern Denmark, Odense"
+    note: "part-time"
+    url: "http://www.sdu.dk/vmm"
+  - years: "Feb–May 2010"
+    role: "Administrative head (merger period)"
+    institution: "Reventlow-Museum"
+  - year: 2009
+    role: "Curator"
+    institution: "Reventlow-Museum"
+    note: "project: The Alps of Lolland; budget 1.5 mio. DKK"
+    url: "http://www.aabne-samlinger.dk/lollandfalster/historie/herreg_landsk/om.asp"
+  - years: "2004–2008"
+    role: "Ph.D. student"
+    institution: "European University Institute, Florence"
+    note: "full scholarship from Danish Ministry of Education, Science and Research"
+  - years: "2003–2004"
+    role: "Volunteer researcher"
+    institution: "Exhibition project, Erfurt University"
+    note: "picture research, interviews, catalogue editing"
+  - years: "2001–2003"
+    role: "Research assistant"
+    institution: "Online edition project: Personal Accounts of the Thirty Years War, Jena"
+    url: "http://www.mdsz.thulb.uni-jena.de/sz/index.php"
+
+awards:
+  - years: "2014–"
+    description: "Member of the board of the Danish Society for the Publication of Historical Sources (Kildeskriftselskabet); member since 2012"
+    url: "http://www.kildeskriftselskabet.dk/"
+  - years: "2014–"
+    description: "Member of the Historical Society of Funen"
+    url: "http://www.histfyn.dk/"
+  - years: "2013–"
+    description: "Member of the research network Erfurt Spacetime-research"
+    url: "http://www.uni-erfurt.de/philosophische-fakultaet/raumzeit-forschung/"
+  - years: "2013–"
+    description: "Member of the Network for Nazism and Holocaust Studies, University of Southern Denmark"
+    url: "http://www.sdu.dk/om_sdu/institutter_centre/ih/forskning/forskningsnetvaerk/nnhs"
+  - year: 2011
+    description: "Fellow at the Gotha Research Library (Fritz Thyssen Stiftung)"
+    url: "http://www.uni-erfurt.de/forschungszentrum-gotha/"
+  - years: "2007–2009"
+    description: "Member of the research network on 'The History of Historiography in the Early Modern Age', funded by the German Research Council (DFG)"
+    url: "http://www.cliographie.net"
+  - year: 2003
+    description: "Best foreign student award, University of Erfurt (DAAD)"
+  - years: "2001–2002"
+    description: "Scholarship from the German Academic Exchange Service (DAAD)"
+
+languages:
+  - level: "Native"
+    languages: ["Danish"]
+  - level: "Fluent"
+    languages: ["English", "German"]
+  - level: "Good knowledge"
+    languages: ["Italian", "Swedish", "Latin"]
+  - level: "Basic knowledge"
+    languages: ["French", "Spanish"]
+
+skills:
+  - "Website management (HTTP, FTP, CMS)"
+  - "XML and XSLT"
+  - "Desktop publishing (DTP)"
+  - "Image editors"
+  - "Bibliographical databases"
+  - "GIS (MapInfo)"

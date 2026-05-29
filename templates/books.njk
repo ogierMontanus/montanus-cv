@@ -1,0 +1,61 @@
+---
+layout: _includes/base.njk
+---
+<h2>Books</h2>
+
+{% set books = publications | filterByType("book", "edited-book") | filterByFlag("include_on_site") | sortByYear %}
+
+{% for pub in books %}
+<article class="publication">
+  {% if pub.subtype == "monograph" %}<h3>Monograph</h3>
+  {% elif pub.subtype == "collected-volume" %}<h3>Collected volume</h3>
+  {% else %}<h3>{{ pub.subtype or pub.type | capitalize }}</h3>{% endif %}
+
+  <div class="pub-body">
+    {% if pub.cover_image %}
+    <img src="{{ pub.cover_image }}" alt="Cover of {{ pub.title }}" class="book-cover">
+    {% endif %}
+
+    <div class="pub-meta">
+      <p class="pub-title"><em>{{ pub.title }}</em>{% if pub.subtitle %}: {{ pub.subtitle }}{% endif %}</p>
+
+      {% if pub.editors %}
+      <p>Ed. by {{ pub.editors | join(", ") }}.</p>
+      {% endif %}
+
+      <p>
+        {{ pub.place }}{% if pub.year %} {{ pub.year }}{% endif %}.
+        {% if pub.publisher %}{{ pub.publisher }}.{% endif %}
+        {% if pub.series %}{{ pub.series }}{% if pub.series_volume %}, vol. {{ pub.series_volume }}{% endif %}.{% endif %}
+        {% if pub.pages %}{{ pub.pages }} pp.{% endif %}
+        {% if pub.isbn %}ISBN {{ pub.isbn }}.{% endif %}
+      </p>
+
+      <p class="pub-links">
+        {% if pub.url_worldcat %}<a href="{{ pub.url_worldcat }}" target="_blank" rel="noopener">WorldCat</a>{% endif %}
+        {% if pub.url_publisher %} · <a href="{{ pub.url_publisher }}" target="_blank" rel="noopener">Publisher</a>{% endif %}
+        {% if pub.order_pdf %} · <a href="{{ pub.order_pdf }}">Order form (PDF)</a>{% endif %}
+        {% if pub.doi %} · <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+      </p>
+    </div>
+  </div>
+
+  {% if pub.reviews %}
+  <div class="reviews">
+    {% for review in pub.reviews %}
+    <blockquote class="review">
+      <p>{{ review.quote }}</p>
+      <footer>
+        {{ review.reviewer }}
+        {% if review.venue %} in <em>{{ review.venue }}</em>{% endif %}
+        {% if review.volume %}, vol. {{ review.volume }}{% endif %}
+        {% if review.issue %}, no. {{ review.issue }}{% endif %}
+        {% if review.year %}, {{ review.year }}{% endif %}
+        {% if review.url %} (<a href="{{ review.url }}" target="_blank" rel="noopener">online</a>){% endif %}
+      </footer>
+    </blockquote>
+    {% endfor %}
+  </div>
+  {% endif %}
+</article>
+{% endfor %}

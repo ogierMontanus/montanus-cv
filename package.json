@@ -1,0 +1,22 @@
+{
+  "name": "montanus-cv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "sync-orcid": "python3 scripts/sync_orcid.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://local_proxy@127.0.0.1:44289/git/ogierMontanus/montanus-cv"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^3.1.5",
+    "js-yaml": "^4.1.1"
+  }
+}

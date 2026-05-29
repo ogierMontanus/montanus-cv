@@ -1,0 +1,59 @@
+ongoing:
+  - title: "Andersen's Selected Manuscripts"
+    type: "digital-genetic-edition"
+    status: "ongoing"
+    collaborators: ["Ane Grum-Schwensen"]
+    institution: "Hans Christian Andersen Centre, University of Southern Denmark"
+    phase: "pilot (2017–2019)"
+    url: "http://andersen.sdu.dk/ms"
+    description: >
+      Digital genetic edition of selected fairy tales written by Hans Christian Andersen.
+      The beta version was located at http://beta.auh.sdu.dk.
+
+  - title: "Critical edition of Christian Lippolt: Curriculum Vitæ"
+    type: "critical-edition"
+    status: "postponed"
+    subject: "Christian Lippolt (1661–1738, Erfurt)"
+    description: "The merchant's manuscript autobiography contains 49 written pages."
+
+  - title: "Grundtvig Works"
+    type: "critical-edition"
+    status: "ongoing"
+    institution: "Grundtvig Study Center, Aarhus University"
+    start_year: 2012
+    url: "http://www.grundtvigsvaerker.dk/"
+    description: >
+      Numerous works by Nicolai Frederik Severin Grundtvig edited in commented, critical
+      versions for the complete printed works of the Danish theologian.
+
+published:
+  - title: "Caspar Heinrich Marx (1600–1635): Diarium Actorum a tempore caesi Exercitus Caesariani"
+    subtitle: "Diary of the acts following the defeat of the Imperial army on September 17/7, in the year 1631"
+    type: "online-edition"
+    collaborators: ["Hans Medick", "Norbert Winnige", "Thomas Rokahr", "Bernd Warlich"]
+    url: "http://www.mdsz.thulb.uni-jena.de/marx/quelle.php"
+    excerpt_pdf: "/assets/pdf/Excerpt_PhD_Marx.pdf"
+    description: >
+      This official journal was kept by a local priest in the Thirty Years War during the
+      first Swedish occupation of Erfurt (1631–1635). Despite its Latin title, the journal
+      is mainly written in German. Published online both in facsimile and in a modernised
+      transcript with ample notes and an introduction. One of five online ego-documents from
+      Central Germany during the Thirty Years War.
+
+  - title: "Hans Staden's True History. An Account of Cannibal Captivity in Brazil"
+    type: "translation-assistance"
+    year: 2008
+    publisher: "Duke University Press"
+    place: "Durham and London"
+    isbn: "0-8223-4231-6"
+    editors: ["Neil Whitehead"]
+    translators: ["Michael Harbsmeier"]
+    role: "Assistance (free-lance) with the translation"
+    url_google_books: "http://books.google.com/books?id=GE4v8HaXzMMC&printsec=frontcover&hl=da"
+    reviews:
+      - source: "Eve M. Duffy, Alida C. Metcalf in the Hispanic American Historical Review"
+        quote: >
+          "At long last an English edition of Hans Staden's account of his captivity among
+          the Tupinambá of mid-sixteenth-century Brazil is available for scholars, teachers,
+          and students. [...] This book [...] is an attractive, accessible, and reliable
+          resource for teaching and research."

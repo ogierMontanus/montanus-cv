@@ -1,0 +1,86 @@
+# Manual entries and patches for publications not in ORCID or needing enrichment.
+# Entries with orcid_put_code: null are appended as manual items.
+# Entries with a put-code patch the corresponding ORCID-fetched entry.
+
+# ── Manual entries (absent from ORCID) ──────────────────────────────────────
+
+- orcid_put_code: null
+  title: "Ausnahmezustand — der 17. Juni 1953 in Erfurt"
+  subtitle: >
+    Dokumentation einer Ausstellung von Studierenden der Universität Erfurt
+    (State of Emergency. The Seventeenth of June 1953 in Erfurt.
+    A Documentation of an Exhibition by Students from the University of Erfurt)
+  year: 2004
+  type: "edited-book"
+  subtype: "collected-volume"
+  place: "Erfurt"
+  publisher: "Friedrich-Ebert-Stiftung Thüringen"
+  pages: 75
+  isbn: "3-89892-279-0"
+  editors:
+    - "Holger Berg"
+    - "Friederike Drewes"
+    - "Jan Henrik Fahlbusch"
+    - "Rona Freiberg"
+    - "Sebastian Jobs"
+    - "Reiner Just"
+    - "Alf Lüdtke"
+    - "Claudia Andrea Müller"
+    - "Benjamin Schöler"
+    - "Juliane Wenke"
+    - "Volker Zimmermann"
+  cover_image: "/assets/images/ausnahmezustand01_medium.jpg"
+  url_worldcat: "https://www.worldcat.org/oclc/61263377"
+  selected: false
+  include_on_site: true
+
+# ── Patches for ORCID entries (add orcid_put_code from cache after first run) ──
+
+# Example patch — set selected: true and add reviews to the monograph.
+# Replace PUT_CODE_HERE with the actual put-code after running --dry-run.
+#
+# - orcid_put_code: "PUT_CODE_HERE"
+#   selected: true
+#   cover_image: "/assets/images/cover_phd-thesis.jpg"
+#   url_worldcat: "https://www.worldcat.org/oclc/641458665"
+#   url_publisher: "http://www.v-r.de/en/title-2-2/military_occupation_under_the_eyes_of_the_lord-1005647/"
+#   order_pdf: "/assets/pdf/Berg_Occupation_10_m_Bestellsch.pdf"
+#   series: "Forschungen zur Kirchen- und Dogmengeschichte"
+#   series_volume: 103
+#   pages: 395
+#   reviews:
+#     - reviewer: "Bertrand Forclaz"
+#       venue: "Annales. Histoire, Sciences Sociales"
+#       volume: 71
+#       issue: 1
+#       year: 2016
+#       quote: >
+#         "With this work, H. Berg gives an original and important contribution not only to
+#         the studies on the perception and experience of war within the religious domain,
+#         but also to more encompassing debates in cultural and religious history."
+#     - reviewer: "Peter H. Wilson"
+#       venue: "Zeitschrift für Historische Forschung"
+#       volume: 39
+#       issue: 2
+#       year: 2012
+#       note: "author of Europe's Tragedy. A History of the Thirty Years War"
+#       quote: >
+#         "The book's greatest strength lies in the accurate reconstruction of the dynamic
+#         phases in the experience and memory of the Thirty Years War until the end of the
+#         17th century."
+#     - reviewer: "Alexander Schunka"
+#       venue: "Zeitschrift für Thüringische Geschichte"
+#       issue: 66
+#       year: 2012
+#       quote: >
+#         "The book can be read as a modern history of mentalities and knowledge during
+#         the Thirty Years War based on a cogent case."
+#     - reviewer: "Michael Rohrschneider"
+#       venue: "Sehepunkte"
+#       issue: 10
+#       year: 2010
+#       url: "http://www.sehepunkte.de/2010/10/17928.html"
+#       quote: >
+#         "The merits of this work include the broad base of sources and literature,
+#         and the overall successful attempt to bring various sources, research themes
+#         and approaches into harmony with each other."

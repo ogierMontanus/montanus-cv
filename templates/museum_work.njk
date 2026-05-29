@@ -1,0 +1,56 @@
+---
+layout: _includes/base.njk
+---
+<h2>Museum Work</h2>
+
+<section class="museum-section">
+  <h3>Exhibitions</h3>
+
+  {% for ex in museum_work.exhibitions %}
+  <article class="exhibition-entry">
+    <h4>{{ ex.title_en or ex.title }}</h4>
+    {% if ex.title_en and ex.title != ex.title_en %}
+    <p class="original-title"><em>{{ ex.title }}</em></p>
+    {% endif %}
+    <p>{{ ex.years }}</p>
+
+    {% for stage in ex.stages %}
+    <div class="exhibition-stage">
+      {% if stage.image %}
+      <a href="{{ stage.image }}" target="_blank">
+        <img src="{{ stage.image }}" alt="{{ stage.image_caption }}" class="exhibition-img">
+      </a>
+      {% endif %}
+      <p>{{ loop.index }}. {{ stage.description }}{% if stage.date %}, {{ stage.date }}{% endif %}{% if stage.dates %}, {{ stage.dates }}{% endif %}
+      {% if stage.note %} ({{ stage.note }}){% endif %}</p>
+      {% if stage.image_caption %}<p class="img-caption">{{ stage.image_caption }}</p>{% endif %}
+    </div>
+    {% endfor %}
+
+    {% if ex.collaborators %}
+    <p>With {{ ex.collaborators | join(", ") }}.</p>
+    {% endif %}
+    {% if ex.catalogue_ref %}<p>{{ ex.catalogue_ref }}</p>{% endif %}
+  </article>
+  {% endfor %}
+</section>
+
+<section class="museum-section">
+  <h3>Related Work</h3>
+
+  <ul class="related-work-list">
+    {% for item in museum_work.related_work %}
+    <li class="related-work-item">
+      {% if item.year %}<strong>{{ item.year }}:</strong>{% endif %}
+      {{ item.description }}
+      {% if item.pdf_front %}
+        <a href="{{ item.pdf_front }}">Front (PDF{% if item.note %}, {{ item.note }}{% endif %})</a>
+        · <a href="{{ item.pdf_rear }}">Rear (PDF)</a>
+      {% endif %}
+      {% if item.image %}
+        <a href="{{ item.image }}" target="_blank">Photograph</a>
+      {% endif %}
+    </li>
+    {% endfor %}
+  </ul>
+</section>

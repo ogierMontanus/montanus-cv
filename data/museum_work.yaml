@@ -1,0 +1,40 @@
+exhibitions:
+  - title: "Ausnahmezustand — der 17. Juni 1953 in Erfurt"
+    title_en: "State of Emergency. The Seventeenth of June 1953 in Erfurt"
+    years: "2003–2004"
+    collaborators: ["fellow students at Erfurt University", "Prof. Alf Lüdtke"]
+    roles: ["picture research", "interviews", "catalogue editing"]
+    stages:
+      - description: "Open-air presentation on the main town square in Erfurt"
+        date: "June 2003"
+        note: "fiftieth anniversary"
+        image: "/assets/images/Raffahrer_vor_Installation.jpg"
+        image_caption: "Open-air installation, town square. Photo: Reiner Just."
+      - description: "Extended exhibition in the Town History Museum of Erfurt"
+        dates: "November 2003 – March 2004"
+        image: "/assets/images/Ausstellung_Stadtmuseum.jpg"
+        image_caption: "Exhibition in the Town History Museum. Photo: Reiner Just."
+    catalogue_ref: "The catalogue is listed under Books."
+
+related_work:
+  - year: 2010
+    description: >
+      Text and layout for a sign explaining the history of the village Halsted on Lolland.
+      Sign created using Scribus (free DTP programme for Windows and Linux).
+    pdf_front: "/assets/pdf/Sign_front.pdf"
+    pdf_rear: "/assets/pdf/Sign_rear.pdf"
+    note: "front 3 MB, rear 1.8 MB"
+
+  - description: "Lectures and guided tours on gardeners at manors at the Reventlow-Museum in Southern Denmark."
+    image: "/assets/images/Guided_tour_2010.jpg"
+
+  - year: 2009
+    description: "Guided bike tours near the Reventlow-Museum and leaflets with recommendations for excursions."
+
+  - year: 2009
+    description: >
+      Written recommendations for the presentation of the history of regional manors.
+      Published as: De lollandske Alper — udflugter i et herregårdslandskab. Kortlægning
+      og formidling af et kulturlandskab 2008–2012. Pederstrup 2009 (Reventlow-Museet).
+      [The Alps of Lolland — tours in a manorial landscape. The mapping and presentation
+      of a cultural landscape.] Budget 1.5 mio. DKK.

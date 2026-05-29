@@ -1,0 +1,56 @@
+---
+layout: _includes/base.njk
+---
+<h2>Editions</h2>
+
+<section class="editions-section">
+  <h3>Ongoing Projects</h3>
+
+  {% for ed in editions.ongoing %}
+  <article class="edition-entry">
+    <h4>{{ ed.title }}</h4>
+    {% if ed.collaborators %}
+    <p><em>With {{ ed.collaborators | join(", ") }}</em></p>
+    {% endif %}
+    {% if ed.institution %}<p>{{ ed.institution }}</p>{% endif %}
+    {% if ed.status == "postponed" %}<p class="status-note">Postponed</p>{% endif %}
+    {% if ed.phase %}<p>Phase: {{ ed.phase }}</p>{% endif %}
+    {% if ed.description %}<p>{{ ed.description }}</p>{% endif %}
+    {% if ed.url %}<p><a href="{{ ed.url }}" target="_blank" rel="noopener">{{ ed.url }}</a></p>{% endif %}
+  </article>
+  {% endfor %}
+</section>
+
+<section class="editions-section">
+  <h3>Editions</h3>
+
+  {% for ed in editions.published %}
+  <article class="edition-entry">
+    <h4>{{ ed.title }}</h4>
+    {% if ed.subtitle %}<p><em>{{ ed.subtitle }}</em></p>{% endif %}
+    {% if ed.role %}<p>{{ ed.role }}</p>{% endif %}
+    {% if ed.collaborators %}<p>With {{ ed.collaborators | join(", ") }}.</p>{% endif %}
+    {% if ed.editors %}<p>Ed. {{ ed.editors | join(", ") }}.</p>{% endif %}
+    {% if ed.translators %}<p>Transl. {{ ed.translators | join(", ") }}.</p>{% endif %}
+    {% if ed.year or ed.place or ed.publisher %}
+    <p>
+      {% if ed.place %}{{ ed.place }}{% endif %}
+      {% if ed.year %} {{ ed.year }}{% endif %}
+      {% if ed.publisher %} ({{ ed.publisher }}){% endif %}
+      {% if ed.isbn %}. ISBN {{ ed.isbn }}{% endif %}
+    </p>
+    {% endif %}
+    {% if ed.description %}<p>{{ ed.description }}</p>{% endif %}
+    {% if ed.url %}<p><a href="{{ ed.url }}" target="_blank" rel="noopener">{{ ed.url }}</a></p>{% endif %}
+    {% if ed.excerpt_pdf %}<p><a href="{{ ed.excerpt_pdf }}">Excerpt (PDF)</a></p>{% endif %}
+    {% if ed.reviews %}
+    {% for review in ed.reviews %}
+    <blockquote class="review">
+      <p>{{ review.quote }}</p>
+      <footer>{{ review.source }}</footer>
+    </blockquote>
+    {% endfor %}
+    {% endif %}
+  </article>
+  {% endfor %}
+</section>
