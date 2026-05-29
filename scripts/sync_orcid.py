@@ -108,7 +108,7 @@ def transform_work(raw):
 def load_overrides():
     if not OVERRIDES_FILE.exists():
         return []
-    with open(OVERRIDES_FILE) as f:
+    with open(OVERRIDES_FILE, encoding="utf-8") as f:
         return yaml.safe_load(f) or []
 
 
@@ -161,7 +161,7 @@ def main():
 
     # write raw cache
     if not args.dry_run:
-        with open(CACHE_FILE, "w") as f:
+        with open(CACHE_FILE, "w", encoding="utf-8") as f:
             json.dump(full_works, f, indent=2, ensure_ascii=False)
         print(f"Wrote {CACHE_FILE}")
 
@@ -185,12 +185,12 @@ def main():
         return
 
     if OUTPUT_FILE.exists() and not args.force:
-        existing = OUTPUT_FILE.read_text()
+        existing = OUTPUT_FILE.read_text(encoding="utf-8")
         if existing == yaml_out:
             print("No changes to publications.yaml.")
             return
 
-    OUTPUT_FILE.write_text(yaml_out)
+    OUTPUT_FILE.write_text(yaml_out, encoding="utf-8")
     print(f"Wrote {OUTPUT_FILE} ({len(result)} entries)")
 
 
