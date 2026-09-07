@@ -9,6 +9,7 @@ layout: _includes/base.njk
   {% for ed in editions.ongoing %}
   <article class="edition-entry">
     <h4>{{ ed.title }}</h4>
+    {% if ed.role %}<p>{{ ed.role }}</p>{% endif %}
     {% if ed.collaborators %}
     <p><em>With {{ ed.collaborators | join(", ") }}</em></p>
     {% endif %}

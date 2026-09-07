@@ -1,32 +1,46 @@
 ongoing:
-  - title: "Andersen's Selected Manuscripts"
+  - title: "H.C. Andersens Eventyr og Historier. Den digitale manuskriptudgave"
     type: "digital-genetic-edition"
     status: "ongoing"
-    collaborators: ["Ane Grum-Schwensen"]
+    role: "Co-editor"
     institution: "Hans Christian Andersen Centre, University of Southern Denmark"
-    phase: "pilot (2017–2019)"
-    url: "http://andersen.sdu.dk/ms"
+    url: "https://hca.sdu.dk/manus"
     description: >
-      Digital genetic edition of selected fairy tales written by Hans Christian Andersen.
-      The beta version was located at http://beta.auh.sdu.dk.
-
-  - title: "Critical edition of Christian Lippolt: Curriculum Vitæ"
-    type: "critical-edition"
-    status: "postponed"
-    subject: "Christian Lippolt (1661–1738, Erfurt)"
-    description: "The merchant's manuscript autobiography contains 49 written pages."
-
-  - title: "Grundtvig Works"
-    type: "critical-edition"
-    status: "ongoing"
-    institution: "Grundtvig Study Center, Aarhus University"
-    start_year: 2012
-    url: "http://www.grundtvigsvaerker.dk/"
-    description: >
-      Numerous works by Nicolai Frederik Severin Grundtvig edited in commented, critical
-      versions for the complete printed works of the Danish theologian.
+      I am co-editor of the digital scholarly edition "H.C. Andersens Eventyr og Historier.
+      Den digitale manuskriptudgave" (EHDM, https://hca.sdu.dk/manus).
 
 published:
+  - title: "Grundtvig Works"
+    type: "critical-edition"
+    institution: "Grundtvig Study Center, Aarhus University"
+    url: "http://www.grundtvigsvaerker.dk/"
+    description: >
+      From 2011 to 2020, I have published 24 works for the digital, text-critical edition
+      Grundtvigs Værker. The individual editions can be seen at www.grundtvigsværker.dk and
+      are mentioned on the PURE-portal of Aarhus University.
+
+  - title: "Hans Christian Andersen's Fairy Tales and Stories"
+    type: "translation-assistance"
+    year: 2022
+    role: "Technical editor"
+    translators: ["John Irons"]
+    collaborators: ["Jacob Bøggild", "Mads Sohl Jessen"]
+    institution: "Hans Christian Andersen Centre, University of Southern Denmark"
+    url: "https://hca.sdu.dk/tales"
+    description: >
+      Translated by John Irons in collaboration with Jacob Bøggild and Mads Sohl Jessen,
+      and published by the Hans Christian Andersen Centre at the University of Southern
+      Denmark, in connection with the EHDM edition.
+
+  - title: "Hans Christian Andersen: Samlede Værker"
+    type: "digital-edition"
+    year: 2024
+    role: "Project manager"
+    url: "https://www.hcandersen.dk"
+    description: >
+      I was project manager for producing a digital version of the main scholarly editions
+      on Hans Christian Andersen: Samlede Værker, www.hcandersen.dk (published 2024).
+
   - title: "Caspar Heinrich Marx (1600–1635): Diarium Actorum a tempore caesi Exercitus Caesariani"
     subtitle: "Diary of the acts following the defeat of the Imperial army on September 17/7, in the year 1631"
     type: "online-edition"
