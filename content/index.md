@@ -8,8 +8,6 @@ permalink: /
 
 I am a historian with a particular focus on in early modern German and the Golden Age of Danish literature during the nineteenth century. I am employed at the [Hans Christian Andersen Centre](http://www.sdu.dk/hca), University of Southern Denmark.
 
-My research focuses on Erfurt during the Thirty Years War, the religious and cultural experience of military occupation, and the history of chronological representation. I also work on critical editions of early modern and nineteenth-century texts.
-
 ### Selected publication
 
 My monograph [*Military Occupation under the Eyes of the Lord. Studies in Erfurt during the Thirty Years War*]({{ '/books/' | url }}) (Göttingen: Vandenhoeck & Ruprecht, 2010) was defended as a Ph.D. thesis at the European University Institute in Florence in November 2008.
