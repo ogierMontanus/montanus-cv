@@ -6,7 +6,7 @@ permalink: /
 
 ## Holger Berg, historian
 
-I am a historian specialising in early modern German history, religious and cultural history, and the history of the Thirty Years War. I am currently researcher at the [Hans Christian Andersen Centre](http://andersen.sdu.dk), University of Southern Denmark, 
+I am a historian specialising in early modern German history, religious and cultural history, and the history of the Thirty Years War. I am currently researcher at the [Hans Christian Andersen Centre](http://andersen.sdu.dk), University of Southern Denmark.
 
 My research focuses on Erfurt during the Thirty Years War, the religious and cultural experience of military occupation, and the history of chronological representation. I also work on critical editions of early modern and nineteenth-century texts.
 
