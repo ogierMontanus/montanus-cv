@@ -1,6 +1,7 @@
 # montanus-cv
 
-Academic CV and portfolio website for **Nils Holger Nemeth Berg** (Holger Berg), historian at the University of Southern Denmark (SDU). Built with [Eleventy (11ty)](https://www.11ty.dev/) and deployed to GitHub Pages.
+Academic CV and portfolio website for **Nils Holger Nemeth Berg** (Holger Berg), historian at the University of Southern Denmark (SDU). Built with [Eleventy (11ty)](https://www.11ty.dev/) and deployed to GitHub https://ogiermontanus.github.io/montanus-cv/
+
 
 ## Project structure
 
