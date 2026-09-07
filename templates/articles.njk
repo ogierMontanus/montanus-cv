@@ -19,16 +19,16 @@ layout: _includes/base.njk
   <ul class="pub-list">
     {% for pub in items %}
     <li class="pub-item">
-      <span class="pub-year">{{ pub.year }}</span>
-      <span class="pub-title">
+      <p class="pub-title">
+        <span class="pub-year">{{ pub.year }}</span>
         {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener"><em>{{ pub.title }}</em></a>
         {% else %}<em>{{ pub.title }}</em>{% endif %}
-      </span>
+      </p>
       {% if pub.container_title %}
-      <span class="pub-venue">{{ pub.container_title }}</span>
+      <p class="pub-venue">{{ pub.container_title }}</p>
       {% endif %}
       {% if pub.contributors %}
-      <span class="pub-contributors">{{ pub.contributors | join(", ") }}</span>
+      <p class="pub-contributors">{{ pub.contributors | join(", ") }}</p>
       {% endif %}
     </li>
     {% endfor %}
