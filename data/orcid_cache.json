@@ -4,7 +4,7 @@
       "value": 1774072698357
     },
     "last-modified-date": {
-      "value": 1775278533338
+      "value": 1786778275333
     },
     "source": {
       "source-orcid": null,
@@ -35,7 +35,7 @@
     "short-description": "Next week’s offers in the local supermarket. A flyer calling for climate action now. The song written to celebrate your aunt turning seventy. – Such shortlived prints have been archived systematically in the Nordic countries for well over a century. Anglophone research librarians speak of ephemeral prints and have begun incorporating such to diversify textual heritage (e.g., Waugh 2022). \nWhat are the basic traits shared by this diverse textual mass? How can scholars explore these vast, scarcely catalogued holdings? My paper discusses how to define and digitize ephemeral prints, drawing on a recent case study where I manually catalogued 421 items (Berg 2023). This barely amounts to 1 of the 6.300 meters of prints shelved in Copenhagen, but the study showed their value for studying how literary texts circulated prior to commercial publication.",
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@article{2a4c07bb271e4c1bac6fedb98413eac6,\n  title    = \"The odd one out: Conceptualizing and digitizing ephemeral jobbing prints\",\n  abstract = \"Next week{\\textquoteright}s offers in the local supermarket. A flyer calling for climate action now. The song written to celebrate your aunt turning seventy. – Such shortlived prints have been archived systematically in the Nordic countries for well over a century. Anglophone research librarians speak of ephemeral prints and have begun incorporating such to diversify textual heritage (e.g., Waugh 2022). What are the basic traits shared by this diverse textual mass? How can scholars explore these vast, scarcely catalogued holdings? My paper discusses how to define and digitize ephemeral prints, drawing on a recent case study where I manually catalogued 421 items (Berg 2023). This barely amounts to 1 of the 6.300 meters of prints shelved in Copenhagen, but the study showed their value for studying how literary texts circulated prior to commercial publication.\",\n  keywords = \"bibliography, mass digitization, ephemeral prints, crowdsourcing, GLAM\",\n  author   = \"Holger Berg\",\n  year     = \"2026\",\n  month    = mar,\n  day      = \"6\",\n  doi      = \"10.5281/zenodo.18835192\",\n  language = \"Dansk\",\n  pages    = \"162--164\",\n  journal  = \"Zenodo\",\n  note     = \"Digital humanities in the Nordic and Baltic Countries : Lost in Abundance, DHNB ; Conference date: 11-03-2026 Through 13-03-2026\",\n  url      = \"https://dhnb.eu/conferences/dhnb2026/\",\n}"
+      "citation-value": "@article{2a4c07bb271e4c1bac6fedb98413eac6,\n  title    = \"The odd one out: Conceptualizing and digitizing ephemeral jobbing prints\",\n  abstract = \"Next week{\\textquoteright}s offers in the local supermarket. A flyer calling for climate action now. The song written to celebrate your aunt turning seventy. {\\textendash} Such shortlived prints have been archived systematically in the Nordic countries for well over a century. Anglophone research librarians speak of ephemeral prints and have begun incorporating such to diversify textual heritage (e.g., Waugh 2022). What are the basic traits shared by this diverse textual mass? How can scholars explore these vast, scarcely catalogued holdings? My paper discusses how to define and digitize ephemeral prints, drawing on a recent case study where I manually catalogued 421 items (Berg 2023). This barely amounts to 1 of the 6.300 meters of prints shelved in Copenhagen, but the study showed their value for studying how literary texts circulated prior to commercial publication.\",\n  keywords = \"bibliography, mass digitization, ephemeral prints, crowdsourcing, GLAM\",\n  author   = \"Holger Berg\",\n  year     = \"2026\",\n  month    = mar,\n  day      = \"6\",\n  doi      = \"10.5281/zenodo.18835192\",\n  language = \"Dansk\",\n  pages    = \"162--164\",\n  journal  = \"Zenodo\",\n  note     = \"Digital humanities in the Nordic and Baltic Countries : Lost in Abundance, DHNB ; Conference date: 11-03-2026 Through 13-03-2026\",\n  url      = \"https://dhnb.eu/conferences/dhnb2026/\",\n}"
     },
     "type": "conference-abstract",
     "publication-date": {
@@ -98,6 +98,106 @@
       ]
     },
     "language-code": "da",
+    "country": null,
+    "visibility": "public"
+  },
+  {
+    "created-date": {
+      "value": 1788584057863
+    },
+    "last-modified-date": {
+      "value": 1788584057863
+    },
+    "source": {
+      "source-orcid": null,
+      "source-client-id": {
+        "uri": "https://orcid.org/client/0000-0002-6423-5541",
+        "path": "0000-0002-6423-5541",
+        "host": "orcid.org"
+      },
+      "source-name": {
+        "value": "University of Southern Denmark"
+      },
+      "assertion-origin-orcid": null,
+      "assertion-origin-client-id": null,
+      "assertion-origin-name": null
+    },
+    "put-code": 225842658,
+    "path": "/0000-0002-8496-7221/work/225842658",
+    "title": {
+      "title": {
+        "value": "Code reuse = sustainable platforms?"
+      },
+      "subtitle": {
+        "value": "Recommendations for digital scholarly editions based on recent Danish experiences and current European perspectives"
+      },
+      "translated-title": null
+    },
+    "journal-title": {
+      "value": "Recirkulering: Textkritik och (åter)användbarhet"
+    },
+    "short-description": "In current digital scholarly editing, questions of recirculation and reuse apply not only to the textual objects under study but also to the code used to markup texts and the source code behind published web applications. The present article examines whether reusing source code can make digital scholarly editions (DSEs) more sustainable. Can long-term access be extended from the marked-up files and facsimiles to include the presentation layer that makes a digital edition into a coherent whole",
+    "citation": {
+      "citation-type": "bibtex",
+      "citation-value": "@inproceedings{2fcb1817ad4342c98d363c9071197116,\n  title     = \"Code reuse = sustainable platforms?: Recommendations for digital scholarly editions based on recent Danish experiences and current European perspectives\",\n  abstract  = \"In current digital scholarly editing, questions of recirculation and reuse apply not only to the textual objects under study but also to the code used to markup texts and the source code behind published web applications. The present article examines whether reusing source code can make digital scholarly editions (DSEs) more sustainable. Can long-term access be extended from the marked-up files and facsimiles to include the presentation layer that makes a digital edition into a coherent whole\",\n  keywords  = \"digital humaniora, Filologi\",\n  author    = \"Holger Berg\",\n  year      = \"2026\",\n  language  = \"English\",\n  isbn      = \"978-91-7230-224-2\",\n  series    = \"Nordisk Netv{\\ae}rk for Editionsfilologer. Skrifter\",\n  publisher = \"Svenska Vitterhetssamfundet (Stockholm)\",\n  pages     = \"131--147\",\n  editor    = \"S{\\\"o}derlund, \\{ Petra\\} and Per Stam\",\n  booktitle = \"Recirkulering: Textkritik och ({\\aa}ter)anv{\\\"a}ndbarhet\",\n  note      = \"Recirkulering: Textkritik och ({\\aa}ter)anv{\\\"a}ndbarhet. ; Conference date: 22-11-2024 Through 24-11-2024\",\n  url       = \"https://nnedit.org/CFP\\_NNE\\_2024.pdf\",\n}"
+    },
+    "type": "conference-paper",
+    "publication-date": {
+      "year": {
+        "value": "2026"
+      },
+      "month": null,
+      "day": null
+    },
+    "external-ids": {
+      "external-id": [
+        {
+          "external-id-type": "source-work-id",
+          "external-id-value": "2fcb1817-ad43-42c9-8d36-3c9071197116",
+          "external-id-normalized": {
+            "value": "2fcb1817-ad43-42c9-8d36-3c9071197116",
+            "transient": true
+          },
+          "external-id-normalized-error": null,
+          "external-id-url": null,
+          "external-id-relationship": "self"
+        },
+        {
+          "external-id-type": "isbn",
+          "external-id-value": "978-91-7230-224-2",
+          "external-id-normalized": {
+            "value": "9789172302242",
+            "transient": true
+          },
+          "external-id-normalized-error": null,
+          "external-id-url": null,
+          "external-id-relationship": "part-of"
+        }
+      ]
+    },
+    "url": {
+      "value": "https://portal.findresearcher.sdu.dk/en/publications/2fcb1817-ad43-42c9-8d36-3c9071197116"
+    },
+    "contributors": {
+      "contributor": [
+        {
+          "contributor-orcid": {
+            "uri": "https://orcid.org/0000-0002-8496-7221",
+            "path": "0000-0002-8496-7221",
+            "host": null
+          },
+          "credit-name": {
+            "value": "Holger Berg"
+          },
+          "contributor-email": null,
+          "contributor-attributes": {
+            "contributor-sequence": null,
+            "contributor-role": "author"
+          }
+        }
+      ]
+    },
+    "language-code": "en",
     "country": null,
     "visibility": "public"
   },
@@ -236,7 +336,7 @@
       "value": 1768025036424
     },
     "last-modified-date": {
-      "value": 1768025036424
+      "value": 1786778275018
     },
     "source": {
       "source-orcid": null,
@@ -265,7 +365,7 @@
     "short-description": null,
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@misc{7835e5db762847aeb1f42b3a48309c72,\n  title    = \"Hans Christian Andersen: Fairy Tales, Technology, and the Natural Sciences : Andersen{\\textquoteright}s Cosmic Tale – {\"}The Comet{\"} and the Wonder of the Universe\",\n  keywords = \"science and technology, astronomi\",\n  author   = \"Holger Berg\",\n  year     = \"2025\",\n  month    = dec,\n  day      = \"1\",\n  language = \"English\",\n}"
+      "citation-value": "@misc{7835e5db762847aeb1f42b3a48309c72,\n  title    = \"Hans Christian Andersen: Fairy Tales, Technology, and the Natural Sciences : Andersen{\\textquoteright}s Cosmic Tale {\\textendash} {\"}The Comet{\"} and the Wonder of the Universe\",\n  keywords = \"science and technology, astronomi\",\n  author   = \"Holger Berg\",\n  year     = \"2025\",\n  month    = dec,\n  day      = \"1\",\n  language = \"English\",\n}"
     },
     "type": "other",
     "publication-date": {
@@ -325,7 +425,7 @@
       "value": 1764395970275
     },
     "last-modified-date": {
-      "value": 1769839329146
+      "value": 1786778274728
     },
     "source": {
       "source-orcid": null,
@@ -354,7 +454,7 @@
     "short-description": "H.C. Andersen ved skrivebordet  åbner for en ny forståelse af dig­terens kreative praksis. Med afsæt i forfatterens mange bevarede manuskripter – udkast, kladder og renskrifter – åbnes døren til det rum, hvor Andersens verdensberømte eventyr og historier tog form. Processen kan følges fra de første blækstreger og rettelser over tilføjelser og omskrivninger til de afsluttende faser med sætterarbejde og trykning.\nBogen samler bidrag fra førende H.C. Andersen-forskere, som analyserer forfatterens arbejdsmetoder og skrivestil med blik for både detalje og helhed. Arbejdet bygger på den digitale udgave af manuskripterne og inddrager nye teknologier som multispektral digitalisering, der afslører skjulte spor og lag i den kreative proces. Samlet tegnes et nuanceret portræt af Andersen som skrivende – med hans vaner, greb og fantasi.\nH.C. Andersen ved skrivebordet henvender sig til forskere, stu­derende og alle med interesse for filologi, tekstkritik og litterære arbejdsprocesser – og bringer læseren tæt på forfatteren ved skrivebordet.\nBogen er redigeret af Ane Grum-Schwensen og Holger Berg, begge fra Syddansk Universitet.",
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@book{1d3be1adb3364f96b439bdf682fa8251,\n  title     = \"H.C. Andersen ved skrivebordet\",\n  abstract  = \"H.C. Andersen ved skrivebordet {\\aa}bner for en ny forst{\\aa}else af dig­terens kreative praksis. Med afs{\\ae}t i forfatterens mange bevarede manuskripter – udkast, kladder og renskrifter – {\\aa}bnes d{\\o}ren til det rum, hvor Andersens verdensber{\\o}mte eventyr og historier tog form. Processen kan f{\\o}lges fra de f{\\o}rste bl{\\ae}kstreger og rettelser over tilf{\\o}jelser og omskrivninger til de afsluttende faser med s{\\ae}tterarbejde og trykning. Bogen samler bidrag fra f{\\o}rende H.C. Andersen-forskere, som analyserer forfatterens arbejdsmetoder og skrivestil med blik for b{\\aa}de detalje og helhed. Arbejdet bygger p{\\aa} den digitale udgave af manuskripterne og inddrager nye teknologier som multispektral digitalisering, der afsl{\\o}rer skjulte spor og lag i den kreative proces. Samlet tegnes et nuanceret portr{\\ae}t af Andersen som skrivende – med hans vaner, greb og fantasi. H.C. Andersen ved skrivebordet henvender sig til forskere, stu­derende og alle med interesse for filologi, tekstkritik og litter{\\ae}re arbejdsprocesser – og bringer l{\\ae}seren t{\\ae}t p{\\aa} forfatteren ved skrivebordet. Bogen er redigeret af Ane Grum-Schwensen og Holger Berg, begge fra Syddansk Universitet.\",\n  editor    = \"Ane Grum-Schwensen and Holger Berg\",\n  year      = \"2025\",\n  month     = nov,\n  day       = \"20\",\n  language  = \"Dansk\",\n  isbn      = \"9788712076773\",\n  publisher = \"Nord Academic\",\n  address   = \"Danmark\",\n}"
+      "citation-value": "@book{1d3be1adb3364f96b439bdf682fa8251,\n  title     = \"H.C. Andersen ved skrivebordet\",\n  abstract  = \"H.C. Andersen ved skrivebordet {\\aa}bner for en ny forst{\\aa}else af dig­terens kreative praksis. Med afs{\\ae}t i forfatterens mange bevarede manuskripter {\\textendash} udkast, kladder og renskrifter {\\textendash} {\\aa}bnes d{\\o}ren til det rum, hvor Andersens verdensber{\\o}mte eventyr og historier tog form. Processen kan f{\\o}lges fra de f{\\o}rste bl{\\ae}kstreger og rettelser over tilf{\\o}jelser og omskrivninger til de afsluttende faser med s{\\ae}tterarbejde og trykning. Bogen samler bidrag fra f{\\o}rende H.C. Andersen-forskere, som analyserer forfatterens arbejdsmetoder og skrivestil med blik for b{\\aa}de detalje og helhed. Arbejdet bygger p{\\aa} den digitale udgave af manuskripterne og inddrager nye teknologier som multispektral digitalisering, der afsl{\\o}rer skjulte spor og lag i den kreative proces. Samlet tegnes et nuanceret portr{\\ae}t af Andersen som skrivende {\\textendash} med hans vaner, greb og fantasi. H.C. Andersen ved skrivebordet henvender sig til forskere, stu­derende og alle med interesse for filologi, tekstkritik og litter{\\ae}re arbejdsprocesser {\\textendash} og bringer l{\\ae}seren t{\\ae}t p{\\aa} forfatteren ved skrivebordet. Bogen er redigeret af Ane Grum-Schwensen og Holger Berg, begge fra Syddansk Universitet.\",\n  editor    = \"Ane Grum-Schwensen and Holger Berg\",\n  year      = \"2025\",\n  month     = nov,\n  day       = \"20\",\n  language  = \"Dansk\",\n  isbn      = \"9788712076773\",\n  publisher = \"Nord Academic\",\n  address   = \"Danmark\",\n}"
     },
     "type": "book",
     "publication-date": {
@@ -745,7 +845,7 @@
       "value": 1713591942401
     },
     "last-modified-date": {
-      "value": 1713591942401
+      "value": 1786778270864
     },
     "source": {
       "source-orcid": null,
@@ -778,7 +878,7 @@
     "short-description": "“Archives” and “distant reading” have become common concepts in literary criticism following the mass digitization of books and newspapers. Though these two sources provide gigantic amounts of data available in digitized collections and catalogues, they rarely encompass all printed texts preserved from any given period. A third type is mostly left out: ephemeral prints. This poses a problem for literary bibliographies. The major Danish collection holds 6 kilometers of rarely registered prints. The article shows how to catalogue and then analyze metadata from 825 printed songs circulating in what was then a major venue in the Danish public sphere: the Royal Copenhagen Shooting Association. Following Katherine Bode's proposals for writing data‐rich literary history, I first sum up collection policies in Scandinavian national libraries. The following questions are then examined: How did ephemera circulate inside the association and in the broader public? Which agents were involved in song‐production? How many of these occasional songs entered the authoritative Collected Works on which scholars often rely—and in which forms? Might political contexts explain fluctuations in the number of songs printed and the choice of foreign melodies? In most cases, the overview gained by quantitative analysis facilitates the subsequent closer, qualitative analysis.",
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@article{fa4109b2a4454c2fb2546a00b3730306,\n  title     = \"Increasing access to ephemeral prints: How to construct and analyze a dataset from the Golden Age of literature in nineteenth-century Denmark\",\n  abstract  = \"“Archives” and “distant reading” have become common concepts in literary criticism following the mass digitization of books and newspapers. Though these two sources provide gigantic amounts of data available in digitized collections and catalogues, they rarely encompass all printed texts preserved from any given period. A third type is mostly left out: ephemeral prints. This poses a problem for literary bibliographies. The major Danish collection holds 6 kilometers of rarely registered prints. The article shows how to catalogue and then analyze metadata from 825 printed songs circulating in what was then a major venue in the Danish public sphere: the Royal Copenhagen Shooting Association. Following Katherine Bode's proposals for writing data‐rich literary history, I first sum up collection policies in Scandinavian national libraries. The following questions are then examined: How did ephemera circulate inside the association and in the broader public? Which agents were involved in song‐production? How many of these occasional songs entered the authoritative Collected Works on which scholars often rely—and in which forms? Might political contexts explain fluctuations in the number of songs printed and the choice of foreign melodies? In most cases, the overview gained by quantitative analysis facilitates the subsequent closer, qualitative analysis.\",\n  keywords  = \"Danish literature 1800–1850, bibliometrics, distant reading, ephemeral prints, national bibliographies, occasional poetry, social clubs, spectator sports\",\n  author    = \"Holger Berg\",\n  year      = \"2023\",\n  month     = oct,\n  doi       = \"10.1111/oli.12397\",\n  language  = \"English\",\n  volume    = \"78\",\n  pages     = \"464--482\",\n  journal   = \"Orbis Litterarum\",\n  issn      = \"0105-7510\",\n  publisher = \"Wiley\",\n  number    = \"5\",\n}"
+      "citation-value": "@article{fa4109b2a4454c2fb2546a00b3730306,\n  title     = \"Increasing access to ephemeral prints: How to construct and analyze a dataset from the Golden Age of literature in nineteenth-century Denmark\",\n  abstract  = \"{\\textquotedblleft}Archives{\\textquotedblright} and {\\textquotedblleft}distant reading{\\textquotedblright} have become common concepts in literary criticism following the mass digitization of books and newspapers. Though these two sources provide gigantic amounts of data available in digitized collections and catalogues, they rarely encompass all printed texts preserved from any given period. A third type is mostly left out: ephemeral prints. This poses a problem for literary bibliographies. The major Danish collection holds 6 kilometers of rarely registered prints. The article shows how to catalogue and then analyze metadata from 825 printed songs circulating in what was then a major venue in the Danish public sphere: the Royal Copenhagen Shooting Association. Following Katherine Bode's proposals for writing data‐rich literary history, I first sum up collection policies in Scandinavian national libraries. The following questions are then examined: How did ephemera circulate inside the association and in the broader public? Which agents were involved in song‐production? How many of these occasional songs entered the authoritative Collected Works on which scholars often rely{\\textemdash}and in which forms? Might political contexts explain fluctuations in the number of songs printed and the choice of foreign melodies? In most cases, the overview gained by quantitative analysis facilitates the subsequent closer, qualitative analysis.\",\n  keywords  = \"Danish literature 1800{\\textendash}1850, bibliometrics, distant reading, ephemeral prints, national bibliographies, occasional poetry, social clubs, spectator sports\",\n  author    = \"Holger Berg\",\n  year      = \"2023\",\n  month     = oct,\n  doi       = \"10.1111/oli.12397\",\n  language  = \"English\",\n  volume    = \"78\",\n  pages     = \"464--482\",\n  journal   = \"Orbis Litterarum\",\n  issn      = \"0105-7510\",\n  publisher = \"Wiley\",\n  number    = \"5\",\n}"
     },
     "type": "journal-article",
     "publication-date": {
@@ -1062,7 +1162,7 @@
       "value": 1717219650667
     },
     "last-modified-date": {
-      "value": 1725688317754
+      "value": 1784955221480
     },
     "source": {
       "source-orcid": null,
@@ -1114,6 +1214,17 @@
           "external-id-value": "ffdf7962-10f0-4aca-a50e-9586872d546c",
           "external-id-normalized": {
             "value": "ffdf7962-10f0-4aca-a50e-9586872d546c",
+            "transient": true
+          },
+          "external-id-normalized-error": null,
+          "external-id-url": null,
+          "external-id-relationship": "self"
+        },
+        {
+          "external-id-type": "eid",
+          "external-id-value": "2-s2.0-105040675852",
+          "external-id-normalized": {
+            "value": "2-s2.0-105040675852",
             "transient": true
           },
           "external-id-normalized-error": null,
@@ -9967,7 +10078,7 @@
       "value": 1717219650790
     },
     "last-modified-date": {
-      "value": 1717219650790
+      "value": 1786778272068
     },
     "source": {
       "source-orcid": null,
@@ -9998,7 +10109,7 @@
     "short-description": null,
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@inbook{49dffede9fec4f9ebd399676c7b6ee42,\n  title     = \"Indledning til “Villemoes”, De Snekker m{\\o}dtes i Kveld paa Hav, “Et Par Ord angaaende Revselsen i Politivennen No. 620” og “Kommer hid, I Piger smaae!”\",\n  author    = \"Holger Berg and Else Riisager and Klaus Nielsen\",\n  year      = \"2014\",\n  language  = \"Dansk\",\n  booktitle = \"Villemoes\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
+      "citation-value": "@inbook{49dffede9fec4f9ebd399676c7b6ee42,\n  title     = \"Indledning til {\\textquotedblleft}Villemoes{\\textquotedblright}, De Snekker m{\\o}dtes i Kveld paa Hav, {\\textquotedblleft}Et Par Ord angaaende Revselsen i Politivennen No. 620{\\textquotedblright} og {\\textquotedblleft}Kommer hid, I Piger smaae!{\\textquotedblright}\",\n  author    = \"Holger Berg and Else Riisager and Klaus Nielsen\",\n  year      = \"2014\",\n  language  = \"Dansk\",\n  booktitle = \"Villemoes\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
     },
     "type": "book-chapter",
     "publication-date": {
@@ -10660,7 +10771,7 @@
       "value": 1717219650782
     },
     "last-modified-date": {
-      "value": 1717219650782
+      "value": 1786778271482
     },
     "source": {
       "source-orcid": null,
@@ -10691,7 +10802,7 @@
     "short-description": null,
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@inbook{fca649b547114aaf875e7bc6e423cf30,\n  title     = \"Tekstredeg{\\o}relse til “Et Par Ord angaaende Revselsen i Politivennen No. 620”\",\n  author    = \"Holger Berg and Maria J{\\o}rgensen and Klaus Nielsen\",\n  year      = \"2014\",\n  language  = \"Dansk\",\n  booktitle = \"Et Par Ord angaaende Revselsen i Politivennen No. 620\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
+      "citation-value": "@inbook{fca649b547114aaf875e7bc6e423cf30,\n  title     = \"Tekstredeg{\\o}relse til {\\textquotedblleft}Et Par Ord angaaende Revselsen i Politivennen No. 620{\\textquotedblright}\",\n  author    = \"Holger Berg and Maria J{\\o}rgensen and Klaus Nielsen\",\n  year      = \"2014\",\n  language  = \"Dansk\",\n  booktitle = \"Et Par Ord angaaende Revselsen i Politivennen No. 620\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
     },
     "type": "book-chapter",
     "publication-date": {
@@ -10769,7 +10880,7 @@
       "value": 1717219650788
     },
     "last-modified-date": {
-      "value": 1717219650788
+      "value": 1786778271771
     },
     "source": {
       "source-orcid": null,
@@ -10800,7 +10911,7 @@
     "short-description": null,
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@inbook{160071b4e1dc4c329e9a978a3f9589df,\n  title     = \"Tekstredeg{\\o}relse til “Villemoes”\",\n  author    = \"Holger Berg and Maria J{\\o}rgensen and Klaus Nielsen\",\n  year      = \"2014\",\n  language  = \"Dansk\",\n  booktitle = \"“Villemoes”\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
+      "citation-value": "@inbook{160071b4e1dc4c329e9a978a3f9589df,\n  title     = \"Tekstredeg{\\o}relse til {\\textquotedblleft}Villemoes{\\textquotedblright}\",\n  author    = \"Holger Berg and Maria J{\\o}rgensen and Klaus Nielsen\",\n  year      = \"2014\",\n  language  = \"Dansk\",\n  booktitle = \"{\\textquotedblleft}Villemoes{\\textquotedblright}\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
     },
     "type": "book-chapter",
     "publication-date": {
@@ -11288,7 +11399,7 @@
       "value": 1717219651817
     },
     "last-modified-date": {
-      "value": 1752370397033
+      "value": 1786778273839
     },
     "source": {
       "source-orcid": null,
@@ -11319,7 +11430,7 @@
     "short-description": null,
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@inbook{a8a3ec623e2c46b5b5c3c6d1347900b3,\n  title     = \"Indledning til N.F.S. Grundtvig: Skolen for Livet og Academiet i Soer borgerlig betragtet samt “Hr. Krigscommissair Fibigers fuldkomne Enighed med mig om den Danske H{\\o}iskole i Soer”\",\n  author    = \"Henrik Yde and Holger Berg and Kondrup, \\{Johnny Johansen\\}\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  series    = \"Grundtvigs V{\\ae}rker\",\n  editor    = \"Holger Berg and Johnny Kondrup\",\n  booktitle = \"Skolen for Livet og Academiet i Soer borgerlig betragtet\",\n  publisher = \"Grundtvig Centeret ved Aarhus Universitet\",\n}"
+      "citation-value": "@inbook{a8a3ec623e2c46b5b5c3c6d1347900b3,\n  title     = \"Indledning til N.F.S. Grundtvig: Skolen for Livet og Academiet i Soer borgerlig betragtet samt {\\textquotedblleft}Hr. Krigscommissair Fibigers fuldkomne Enighed med mig om den Danske H{\\o}iskole i Soer{\\textquotedblright}\",\n  author    = \"Henrik Yde and Holger Berg and Kondrup, \\{Johnny Johansen\\}\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  series    = \"Grundtvigs V{\\ae}rker\",\n  editor    = \"Holger Berg and Johnny Kondrup\",\n  booktitle = \"Skolen for Livet og Academiet i Soer borgerlig betragtet\",\n  publisher = \"Grundtvig Centeret ved Aarhus Universitet\",\n}"
     },
     "type": "book-chapter",
     "publication-date": {
@@ -11506,7 +11617,7 @@
       "value": 1717219650796
     },
     "last-modified-date": {
-      "value": 1752370396244
+      "value": 1786778272952
     },
     "source": {
       "source-orcid": null,
@@ -11537,7 +11648,7 @@
     "short-description": null,
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@inbook{0ffdc6b5a2fa47998d4d0d9d1ac7686d,\n  title     = \"Indledning til “Saga om Nor og hans {\\AE}t Med et Kvad til mit F{\\ae}dreland den 28 Jan. 1809”\",\n  author    = \"Petersen, \\{Stine Holst\\} and Holger Berg and Klaus Nielsen\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  booktitle = \"Saga om Nor og hans {\\AE}t Med et Kvad til mit F{\\ae}dreland den 28 Jan. 1809\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
+      "citation-value": "@inbook{0ffdc6b5a2fa47998d4d0d9d1ac7686d,\n  title     = \"Indledning til {\\textquotedblleft}Saga om Nor og hans {\\AE}t Med et Kvad til mit F{\\ae}dreland den 28 Jan. 1809{\\textquotedblright}\",\n  author    = \"Petersen, \\{Stine Holst\\} and Holger Berg and Klaus Nielsen\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  booktitle = \"Saga om Nor og hans {\\AE}t Med et Kvad til mit F{\\ae}dreland den 28 Jan. 1809\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
     },
     "type": "book-chapter",
     "publication-date": {
@@ -12051,7 +12162,7 @@
       "value": 1717219651819
     },
     "last-modified-date": {
-      "value": 1752370397771
+      "value": 1786778274135
     },
     "source": {
       "source-orcid": null,
@@ -12082,7 +12193,7 @@
     "short-description": null,
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@inbook{9039d05c3bf44b2585ce10d681385454,\n  title     = \"Punktkommentarer til “Hr. Krigscommissair Fibigers fuldkomne Enighed med mig om den Danske H{\\o}iskole i Soer”\",\n  author    = \"Henrik Yde and Holger Berg and Kondrup, \\{Johnny Johansen\\}\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  series    = \"Grundtvigs V{\\ae}rker\",\n  editor    = \"Holger Berg and Johnny Kondrup\",\n  booktitle = \"Hr. Krigscommissair Fibigers fuldkomne Enighed med mig om den Danske H{\\o}iskole i Soer\",\n  publisher = \"Grundtvig Centeret ved Aarhus Universitet\",\n}"
+      "citation-value": "@inbook{9039d05c3bf44b2585ce10d681385454,\n  title     = \"Punktkommentarer til {\\textquotedblleft}Hr. Krigscommissair Fibigers fuldkomne Enighed med mig om den Danske H{\\o}iskole i Soer{\\textquotedblright}\",\n  author    = \"Henrik Yde and Holger Berg and Kondrup, \\{Johnny Johansen\\}\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  series    = \"Grundtvigs V{\\ae}rker\",\n  editor    = \"Holger Berg and Johnny Kondrup\",\n  booktitle = \"Hr. Krigscommissair Fibigers fuldkomne Enighed med mig om den Danske H{\\o}iskole i Soer\",\n  publisher = \"Grundtvig Centeret ved Aarhus Universitet\",\n}"
     },
     "type": "book-chapter",
     "publication-date": {
@@ -12160,7 +12271,7 @@
       "value": 1717219650792
     },
     "last-modified-date": {
-      "value": 1752370389950
+      "value": 1786778272362
     },
     "source": {
       "source-orcid": null,
@@ -12191,7 +12302,7 @@
     "short-description": null,
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@inbook{36e05b8c602c4b568867a5f0a6bcc950,\n  title     = \"Punktkommentarer til “Saga om Nor og hans {\\AE}t. Med et Kvad til mit F{\\ae}dreland den 28 Jan. 1809”\",\n  author    = \"Petersen, \\{Stine Holst\\} and Holger Berg and Klaus Nielsen\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  series    = \"Grundtvigs V{\\ae}rker\",\n  booktitle = \"Saga om Nor og hans {\\AE}t. Med et Kvad til mit F{\\ae}dreland den 28 Jan. 1809\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
+      "citation-value": "@inbook{36e05b8c602c4b568867a5f0a6bcc950,\n  title     = \"Punktkommentarer til {\\textquotedblleft}Saga om Nor og hans {\\AE}t. Med et Kvad til mit F{\\ae}dreland den 28 Jan. 1809{\\textquotedblright}\",\n  author    = \"Petersen, \\{Stine Holst\\} and Holger Berg and Klaus Nielsen\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  series    = \"Grundtvigs V{\\ae}rker\",\n  booktitle = \"Saga om Nor og hans {\\AE}t. Med et Kvad til mit F{\\ae}dreland den 28 Jan. 1809\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
     },
     "type": "book-chapter",
     "publication-date": {
@@ -12596,7 +12707,7 @@
       "value": 1717219651809
     },
     "last-modified-date": {
-      "value": 1752370395494
+      "value": 1786778273543
     },
     "source": {
       "source-orcid": null,
@@ -12627,7 +12738,7 @@
     "short-description": null,
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@inbook{6b006a3c7f9343ef9b51978f2ff4c27e,\n  title     = \"Tekstredeg{\\o}relse til “Hr. Krigscommissair Fibigers fuldkomne Enighed med mig om den Danske H{\\o}iskole i Soer”\",\n  author    = \"Henrik Yde and Holger Berg and Kondrup, \\{Johnny Johansen\\}\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  series    = \"Grundtvigs V{\\ae}rker\",\n  editor    = \"Holger Berg and Johnny Kondrup\",\n  booktitle = \"Hr. Krigscommissair Fibigers fuldkomne Enighed med mig om den Danske H{\\o}iskole i Soer\",\n  publisher = \"Grundtvig Centeret ved Aarhus Universitet\",\n}"
+      "citation-value": "@inbook{6b006a3c7f9343ef9b51978f2ff4c27e,\n  title     = \"Tekstredeg{\\o}relse til {\\textquotedblleft}Hr. Krigscommissair Fibigers fuldkomne Enighed med mig om den Danske H{\\o}iskole i Soer{\\textquotedblright}\",\n  author    = \"Henrik Yde and Holger Berg and Kondrup, \\{Johnny Johansen\\}\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  series    = \"Grundtvigs V{\\ae}rker\",\n  editor    = \"Holger Berg and Johnny Kondrup\",\n  booktitle = \"Hr. Krigscommissair Fibigers fuldkomne Enighed med mig om den Danske H{\\o}iskole i Soer\",\n  publisher = \"Grundtvig Centeret ved Aarhus Universitet\",\n}"
     },
     "type": "book-chapter",
     "publication-date": {
@@ -12705,7 +12816,7 @@
       "value": 1717219650794
     },
     "last-modified-date": {
-      "value": 1752370391863
+      "value": 1786778272655
     },
     "source": {
       "source-orcid": null,
@@ -12736,7 +12847,7 @@
     "short-description": null,
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@inbook{507f83ae59594d5eb2a949ff4fb2f579,\n  title     = \"Tekstredeg{\\o}relse til “Saga om Nor og hans {\\AE}t. Med et Kvad til mit F{\\ae}dreland den 28 Jan. 1809”\",\n  author    = \"Petersen, \\{Stine Holst\\} and Holger Berg and Klaus Nielsen\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  booktitle = \"Saga om Nor og hans {\\AE}t. Med et Kvad til mit F{\\ae}dreland den 28 Jan. 1809\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
+      "citation-value": "@inbook{507f83ae59594d5eb2a949ff4fb2f579,\n  title     = \"Tekstredeg{\\o}relse til {\\textquotedblleft}Saga om Nor og hans {\\AE}t. Med et Kvad til mit F{\\ae}dreland den 28 Jan. 1809{\\textquotedblright}\",\n  author    = \"Petersen, \\{Stine Holst\\} and Holger Berg and Klaus Nielsen\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  booktitle = \"Saga om Nor og hans {\\AE}t. Med et Kvad til mit F{\\ae}dreland den 28 Jan. 1809\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
     },
     "type": "book-chapter",
     "publication-date": {
@@ -12910,7 +13021,7 @@
       "value": 1717219651824
     },
     "last-modified-date": {
-      "value": 1752370395882
+      "value": 1786778274433
     },
     "source": {
       "source-orcid": null,
@@ -12939,7 +13050,7 @@
     "short-description": null,
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@book{3d615a0036174858969802edd7891811,\n  title     = \"“Ki{\\ae}kheds Erindring, Willemoes [Kommer hid, I Piger smaae!]”\",\n  editor    = \"Pedersen, \\{Vibeke A.\\} and Holger Berg\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
+      "citation-value": "@book{3d615a0036174858969802edd7891811,\n  title     = \"{\\textquotedblleft}Ki{\\ae}kheds Erindring, Willemoes [Kommer hid, I Piger smaae!]{\\textquotedblright}\",\n  editor    = \"Pedersen, \\{Vibeke A.\\} and Holger Berg\",\n  year      = \"2013\",\n  language  = \"Dansk\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
     },
     "type": "book",
     "publication-date": {
@@ -15536,7 +15647,7 @@
       "value": 1714196735242
     },
     "last-modified-date": {
-      "value": 1752370396646
+      "value": 1786778271188
     },
     "source": {
       "source-orcid": null,
@@ -15567,7 +15678,7 @@
     "short-description": null,
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@inbook{cd75b9e6808e4a64a836e034aa156f37,\n  title     = \"Tekstredeg{\\o}relse til “I Anledningen af mit Syns Mistydning”\",\n  author    = \"Holger Berg and Kondrup, \\{Johnny Johansen\\} and Pedersen, \\{Vibeke A\\} and Vanja Thaulow\",\n  year      = \"2012\",\n  language  = \"Dansk\",\n  booktitle = \"I Anledningen af mit Syns Mistydning\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
+      "citation-value": "@inbook{cd75b9e6808e4a64a836e034aa156f37,\n  title     = \"Tekstredeg{\\o}relse til {\\textquotedblleft}I Anledningen af mit Syns Mistydning{\\textquotedblright}\",\n  author    = \"Holger Berg and Kondrup, \\{Johnny Johansen\\} and Pedersen, \\{Vibeke A\\} and Vanja Thaulow\",\n  year      = \"2012\",\n  language  = \"Dansk\",\n  booktitle = \"I Anledningen af mit Syns Mistydning\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
     },
     "type": "book-chapter",
     "publication-date": {
@@ -15656,7 +15767,7 @@
       "value": 1717219650798
     },
     "last-modified-date": {
-      "value": 1752370400793
+      "value": 1786778273254
     },
     "source": {
       "source-orcid": null,
@@ -15687,7 +15798,7 @@
     "short-description": null,
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@inbook{48b06bc5fcae46f7952290a978d8d70b,\n  title     = \"Tekstredeg{\\o}relse til “Til Arlichinos Forfatter!”\",\n  author    = \"Holger Berg and Kondrup, \\{Johnny Johansen\\} and Pedersen, \\{Vibeke A.\\}\",\n  year      = \"2012\",\n  language  = \"Dansk\",\n  booktitle = \"Til Arlichinos Forfatter!\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
+      "citation-value": "@inbook{48b06bc5fcae46f7952290a978d8d70b,\n  title     = \"Tekstredeg{\\o}relse til {\\textquotedblleft}Til Arlichinos Forfatter!{\\textquotedblright}\",\n  author    = \"Holger Berg and Kondrup, \\{Johnny Johansen\\} and Pedersen, \\{Vibeke A.\\}\",\n  year      = \"2012\",\n  language  = \"Dansk\",\n  booktitle = \"Til Arlichinos Forfatter!\",\n  publisher = \"GV: Grundtvigs V{\\ae}rker\",\n}"
     },
     "type": "book-chapter",
     "publication-date": {

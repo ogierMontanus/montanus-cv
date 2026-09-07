@@ -1,3 +1,16 @@
+- orcid_put_code: null
+  title: Code reuse = sustainable platforms? Recommendations for digital scholarly
+    editions based on recent Danish experiences and current European perspectives
+  year: 2026
+  type: book-chapter
+  container_title: 'Recirkulering: Textkritik och (åter)användbarhet'
+  editors:
+  - Petra Söderlund
+  - Per Stam
+  place: Stockholm
+  publisher: Svenska Vitterhetssamfundet
+  status: Accepted for publication; volume in preparation
+  include_on_site: true
 - orcid_put_code: '198274476'
   title: H.C. Andersen ved skrivebordet
   subtitle: null
@@ -11,6 +24,27 @@
   - Holger Berg
   selected: false
   include_on_site: true
+  editors:
+  - Ane Grum-Schwensen
+  - Holger Berg
+  place: Copenhagen
+  publisher: Nord Academic/Gad
+  hero_image: /assets/images/hc_andersen_ved_skrivebordet.jpg
+  url_publisher: https://nordacademic.dk/da/publikation/hc-andersen-ved-skrivebordet/9788712076773
+  reviews:
+  - reviewer: Lars Bukdahl
+    venue: Weekendavisen
+    quote: '"Den akademiske men ikke ulæselige antologi H.C. Andersen ved skrivebordet,
+      som lige nåede at udkomme, inden de 13 millioner landede, handler om, hvordan
+      man rent praktisk og teknisk læser Andersens manuskripter og – via en række
+      opdagelser og læsninger af betydningsfulde oprindelser og forandringer – hvorfor
+      man gør det, for nemlig at blive klog på, hvad og hvordan eventyrene betyder
+      ved at blive klogere på, hvordan de er nået frem til at gøre det. Men også bare
+      fordi det er satans fascinerende og diverterende i sig selv at følge genier
+      i værkmæssig action. ... solide, manuskriptskelende læsninger ... Så kom ikke
+      her og kald naturvidenskab videnskabeligere end tekstvidenskab!"
+
+      '
 - orcid_put_code: '198274477'
   title: Indledning
   subtitle: null
@@ -32,19 +66,6 @@
   container_title: H.C. Andersen ved skrivebordet
   doi: null
   isbn: '9788712076773'
-  contributors:
-  - Holger Berg
-  selected: false
-  include_on_site: true
-- orcid_put_code: '158053603'
-  title: Increasing access to ephemeral prints
-  subtitle: How to construct and analyze a dataset from the Golden Age of literature
-    in nineteenth-century Denmark
-  year: 2023
-  type: journal-article
-  container_title: Orbis Litterarum
-  doi: 10.1111/oli.12397
-  isbn: null
   contributors:
   - Holger Berg
   selected: false
@@ -75,6 +96,10 @@
   - Holger Berg
   selected: false
   include_on_site: true
+  place: Odense
+  publisher: Kle-art
+  hero_image: /assets/images/kongesange_og_skydeviser.webp
+  url_publisher: https://www.kleart.dk/webshop/p/kongesange-og-skydeviser
 - orcid_put_code: '158053601'
   title: '"Den lille Havfrue" - en tilblivelseshistorie'
   subtitle: null
@@ -88,18 +113,14 @@
   - Holger Berg
   selected: false
   include_on_site: true
-- orcid_put_code: '160710542'
-  title: 'Lines in ''the stream of time'' (Tidens Strøm): A comparison of three chronological
-    charts from nineteenth-century Denmark'
-  subtitle: null
+- orcid_put_code: null
+  title: '''Hellere Zeiten''. Wie das Erfurtische Schwarzbier und die Biereigen zwischen
+    1583 und 1703 verblassten'
   year: 2018
   type: book-chapter
-  container_title: SpatioTemporalities on the Line.
-  doi: 10.1515/9783110467963-010
-  isbn: 978-3-11-045551-9
-  contributors:
-  - Holger Berg
-  selected: false
+  container_title: Es braut sich was zusammen – Erfurt und das Bier
+  place: Erfurt
+  pages: 61–73
   include_on_site: true
 - orcid_put_code: '160710548'
   title: Christoffer Columbus
@@ -112,7 +133,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710539'
   title: Indledning til Bjovulfs Drape eller det Oldnordiske Heltedigt
   subtitle: null
@@ -235,6 +256,19 @@
   container_title: null
   doi: null
   isbn: null
+  contributors:
+  - Holger Berg
+  selected: false
+  include_on_site: false
+- orcid_put_code: '160710542'
+  title: 'Lines in ''the stream of time'' (Tidens Strøm): A comparison of three chronological
+    charts from nineteenth-century Denmark'
+  subtitle: null
+  year: 2017
+  type: book-chapter
+  container_title: SpatioTemporalities on the Line.
+  doi: 10.1515/9783110467963-010
+  isbn: 978-3-11-045551-9
   contributors:
   - Holger Berg
   selected: false
@@ -420,7 +454,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710541'
   title: Tekstredegørelse til Bjovulfs Drape eller det Oldnordiske Heltedigt
   subtitle: null
@@ -588,7 +622,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710544'
   title: '[Subskriptionsindbydelse til] Haandbog i Nyaars-Tidens Historie'
   subtitle: null
@@ -600,7 +634,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710543'
   title: '[Subskriptionsindbydelse til] Nyaarstidens Historie'
   subtitle: null
@@ -612,6 +646,19 @@
   contributors:
   - Holger Berg
   selected: false
+  include_on_site: false
+- orcid_put_code: null
+  title: Administering Justice and Bending the Legal Code. The Contested Implementation
+    of the Swedish Articles of War, 1621–1650
+  year: 2016
+  type: book-chapter
+  container_title: Militärrecht in der Frühen Neuzeit
+  editors:
+  - Jutta Nowosadtko
+  - Diethelm Klippel
+  place: Göttingen
+  publisher: V&R unipress
+  pages: 227–249
   include_on_site: true
 - orcid_put_code: '160710569'
   title: En mærkelig Spaadom ogsaa om Dannemark efter en gammel Haandskrift
@@ -624,7 +671,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710580'
   title: Haandbog i Verdens-Historien. Første Deel
   subtitle: null
@@ -636,7 +683,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710533'
   title: Indledning til En mærkelig Røst fra Sverrig
   subtitle: null
@@ -908,7 +955,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710562'
   title: Sang til det kongelige kjøbenhavnske Skydeselskab og danske Broderskab, fra
     den fratrædende Fuglekonge, Cancellieraad og Procurator Wilse, i August 1823
@@ -921,7 +968,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710536'
   title: Tekstredegørelse til En mærkelig Røst fra Sverrig
   subtitle: null
@@ -1021,7 +1068,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710586'
   title: Historisk Børne-Lærdom
   subtitle: null
@@ -1033,7 +1080,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710588'
   title: Indledning til Høstgildet
   subtitle: null
@@ -1244,6 +1291,17 @@
   contributors:
   - Holger Berg
   selected: false
+  include_on_site: false
+- orcid_put_code: null
+  title: Die Klänge des Krieges. Zur Akustik der Erfurter Chronistik, 1594–1664
+  year: 2014
+  type: book-chapter
+  container_title: Musik – Geschichte – Erfurt. Gedenkschrift für Helga Brück
+  editors:
+  - Michael Ludscheidt
+  place: Erfurt
+  publisher: Uhlenspiel Verlag
+  pages: 63–88
   include_on_site: true
 - orcid_put_code: '160710597'
   title: Indledning til Kort Begreb af Verdens Krønike i Sammenhæng
@@ -1298,7 +1356,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710602'
   title: Muntre Yngling udi Livets Vaar
   subtitle: null
@@ -1310,7 +1368,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710598'
   title: Punktkommentarer til Kort Begreb af Verdens Krønike i Sammenhæng
   subtitle: null
@@ -1405,7 +1463,7 @@
   - Vibeke A. Pedersen
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710638'
   title: Et Par Ord angaaende Revselsen i Politivennen No. 620
   subtitle: null
@@ -1418,7 +1476,7 @@
   - Vibeke A. Pedersen
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710632'
   title: Indledning til Et Par Ord om vore Oldtids Minder
   subtitle: null
@@ -1669,7 +1727,7 @@
   - Vibeke A. Pedersen
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710636'
   title: “Kiækheds Erindring, Willemoes [Kommer hid, I Piger smaae!]”
   subtitle: null
@@ -1682,7 +1740,7 @@
   - Vibeke A. Pedersen
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710615'
   title: Die Handbibliothek des Nietzscheforschers Karl A. Schlechta
   subtitle: null
@@ -1706,7 +1764,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '159383920'
   title: Indledning til "Arlichino-fejden"
   subtitle: null
@@ -1800,7 +1858,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710628'
   title: Maskeradeballet i Dannemark 1808. Et Syn
   subtitle: null
@@ -1812,7 +1870,7 @@
   contributors:
   - Holger Berg
   selected: false
-  include_on_site: true
+  include_on_site: false
 - orcid_put_code: '160710623'
   title: Punktkommentarer til "I Anledning af mit Syns Mistydning"
   subtitle: null
@@ -2053,6 +2111,18 @@
   contributors:
   - Holger Berg
   selected: false
+  include_on_site: false
+- orcid_put_code: null
+  title: Der Werdegang eines erfolgreichen städtischen Pfarrers. Stengers Ausbildung
+    und Amtszeit (1629–1649)
+  year: 2011
+  type: book-chapter
+  container_title: Nicolaus Stenger (1609–1680). Beiträge zu Leben, Werk und Wirken
+  editors:
+  - Michael Ludscheidt
+  place: Erfurt
+  publisher: Uhlenspiel Verlag
+  pages: 41–64
   include_on_site: true
 - orcid_put_code: '160710614'
   title: 'Seks samfundsrevsere - med mere: Anmeldelse af Benito Scocozza: Femten fortællinger
@@ -2066,6 +2136,144 @@
   contributors:
   - Nils Holger Berg
   selected: false
+  include_on_site: true
+- orcid_put_code: null
+  title: '''Gott danckbar sein/ vnd die wolthat [...] aller meniglich/offenbaren''.
+    Eine ''Warhaftig Historia'' unterwegs vom brasilianischen Ubatuba (1554) zu einer
+    Marburger Druckerpresse (1557)'
+  year: 2010
+  type: book-chapter
+  container_title: Geschichte schreiben. Ein Quellen- und Studienhandbuch zur Historiografie
+    (ca. 1350–1750)
+  editors:
+  - Birgit Studt
+  - Susanne Rau
+  place: Berlin
+  publisher: Akademie Verlag
+  pages: 195–204
+  note: sect. 2.1.1
+  include_on_site: true
+- orcid_put_code: null
+  title: Der Spate und das Schwert. Kaspar Stieler und seine Schrift 'Auditeur oder
+    KriegsSchulteiß' (1683)
+  year: 2010
+  type: book-chapter
+  container_title: Kaspar Stieler (1632–1707). Studien zum literarischen Werk des
+    'Spaten'
+  editors:
+  - Michael Ludscheidt
+  place: Rudolstadt
+  publisher: Palmbaum Verlag
+  pages: 249–276
+  include_on_site: true
+- orcid_put_code: null
+  title: Military Occupation under the Eyes of the Lord
+  subtitle: Studies in Erfurt during the Thirty Years War
+  year: 2010
+  type: book
+  subtype: monograph
+  place: Göttingen
+  publisher: Vandenhoeck & Ruprecht
+  series: Forschungen zur Kirchen- und Dogmengeschichte
+  series_volume: 103
+  pages: 395
+  isbn: 978-3-525-56455-4
+  cover_image: /assets/images/cover_phd-thesis.jpg
+  url_worldcat: https://www.worldcat.org/oclc/641458665
+  url_publisher: http://www.v-r.de/en/title-2-2/military_occupation_under_the_eyes_of_the_lord-1005647/
+  url_cadmus: https://cadmus.eui.eu/entities/publication/f909c25a-0b4c-5854-8490-8baf388d3bdd
+  order_pdf: /assets/pdf/Berg_Occupation_10_m_Bestellsch.pdf
+  description: 'The study was defended as a Ph.D. thesis at the European University
+    Institute in November 2008. Some content was since revised for the publication.
+    My PhD thesis was published by a major German publisher (rank 2) and was reviewed
+    in leading German and French journals, including <em>Annales. Histoire, Sciences
+    Sociales</em>. For a list of recent references to the work in the English-language
+    literature, see my profile on <a href="https://scholar.google.com/citations?user=qZkbF8cAAAAJ&amp;hl=en"
+    target="_blank" rel="noopener">Google Scholar</a>.
+
+    '
+  selected: true
+  include_on_site: true
+  reviews:
+  - reviewer: Bertrand Forclaz
+    venue: Annales. Histoire, Sciences Sociales
+    volume: 71
+    issue: 1
+    year: 2016
+    quote: '"With this work, H. Berg gives an original and important contribution
+      not only to the studies on the perception and experience of war within the religious
+      domain, but also to more encompassing debates in cultural and religious history,
+      such as the relation between clerical religiosity and the ''popular'' piety
+      (the term is here exchanged with ''lay'' piety) and the question of secularisation."
+      (translated by H.B.)
+
+      '
+  - reviewer: Peter H. Wilson
+    venue: Zeitschrift für Historische Forschung
+    volume: 39
+    issue: 2
+    year: 2012
+    note: author of Europe's Tragedy. A History of the Thirty Years War
+    quote: '"The book''s greatest strength lies in the accurate reconstruction of
+      the dynamic phases in the experience and memory of the Thirty Years War until
+      the end of the 17th century. [...] This study contributes significantly to a
+      more thorough understanding of war experiences in the Lutheran area. One can
+      only hope that it will be supplemented by an equally detailed study of the Catholic
+      population." (translated by H.B.)
+
+      '
+  - reviewer: Alexander Schunka
+    venue: Zeitschrift für Thüringische Geschichte
+    issue: 66
+    year: 2012
+    quote: '"The book can be read as a modern history of mentalities and knowledge
+      during the Thirty Years War based on a cogent case. [...] It is, beyond doubt,
+      of great value to local urban history and to regional history [...] even though
+      the book is, strictly speaking, not a study of Erfurt but rather a study in
+      Erfurt."
+
+      '
+  - reviewer: Michael Rohrschneider
+    venue: Sehepunkte
+    issue: 10
+    year: 2010
+    url: http://www.sehepunkte.de/2010/10/17928.html
+    quote: '"The merits of this work include the broad base of sources and literature,
+      and the, from an overall view, successful attempt to bring various sources,
+      research themes and approaches into harmony with each other."
+
+      '
+  reviews_note: 'Further reviews appeared in Jahrbuch für Erfurter Geschichte, vol.
+    7 (2012), by Uwe Jens Wandel, and in Francia-Recensio, vol. 3 (2012), by Jean-Luc
+    Le Cam.
+
+    '
+- orcid_put_code: null
+  title: Ethnic demarcations in an age of upheaval. Notes on a Riga guild book, c.
+    1538–1616
+  year: 2009
+  type: book-chapter
+  container_title: The 'Baltic Frontier' Revisited. Cross-Cultural Interaction in
+    the Baltic Sea Region
+  editors:
+  - Stefan Donecker
+  - Imbi Sooman
+  place: Wien
+  publisher: WUV-Universitätsverlag
+  include_on_site: true
+- orcid_put_code: null
+  title: The limited political relevance of dreams in two Lutheran realms. Observations
+    from Scandinavia in the 17th and 18th centuries
+  year: 2008
+  type: book-chapter
+  container_title: Traum und res publica. Traumkulturen und Deutungen sozialer Wirklichkeiten
+    im Europa von Renaissance und Barock
+  editors:
+  - Peer Schmidt
+  - Gregor Weber
+  place: Berlin
+  publisher: Akademie Verlag
+  pages: 343–372
   include_on_site: true
 - orcid_put_code: null
   title: Ausnahmezustand — der 17. Juni 1953 in Erfurt

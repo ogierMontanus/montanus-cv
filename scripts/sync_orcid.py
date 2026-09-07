@@ -105,6 +105,33 @@ def transform_work(raw):
     }
 
 
+def dedupe_by_doi(transformed):
+    """Collapse duplicate ORCID works sharing the same DOI.
+
+    ORCID sometimes harvests the same publication twice from different sources
+    (e.g. a truncated title from one indexer, the full title from another).
+    Keep whichever copy has the more complete title/subtitle.
+    """
+    by_doi = {}
+    order = []
+    for item in transformed:
+        doi = item.get("doi")
+        if not doi:
+            order.append(item)
+            continue
+        existing = by_doi.get(doi)
+        if existing is None:
+            by_doi[doi] = item
+            order.append(item)
+        else:
+            existing_len = len(existing.get("title") or "") + len(existing.get("subtitle") or "")
+            new_len = len(item.get("title") or "") + len(item.get("subtitle") or "")
+            if new_len > existing_len:
+                order[order.index(existing)] = item
+                by_doi[doi] = item
+    return order
+
+
 def load_overrides():
     if not OVERRIDES_FILE.exists():
         return []
@@ -169,6 +196,11 @@ def main():
     transformed = [t for w in full_works if (t := transform_work(w)) is not None]
     print(f"  {len(transformed)} works accepted after type filter "
           f"({len(full_works) - len(transformed)} discarded)")
+
+    deduped = dedupe_by_doi(transformed)
+    if len(deduped) != len(transformed):
+        print(f"  Dropped {len(transformed) - len(deduped)} duplicate(s) sharing a DOI")
+    transformed = deduped
 
     # merge overrides
     overrides = load_overrides()

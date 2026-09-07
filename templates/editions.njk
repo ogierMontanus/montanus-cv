@@ -16,7 +16,7 @@ layout: _includes/base.njk
     {% if ed.institution %}<p>{{ ed.institution }}</p>{% endif %}
     {% if ed.status == "postponed" %}<p class="status-note">Postponed</p>{% endif %}
     {% if ed.phase %}<p>Phase: {{ ed.phase }}</p>{% endif %}
-    {% if ed.description %}<p>{{ ed.description }}</p>{% endif %}
+    {% if ed.description %}<p>{{ ed.description | safe }}</p>{% endif %}
     {% if ed.url %}<p><a href="{{ ed.url }}" target="_blank" rel="noopener">{{ ed.url }}</a></p>{% endif %}
   </article>
   {% endfor %}
@@ -41,7 +41,7 @@ layout: _includes/base.njk
       {% if ed.isbn %}. ISBN {{ ed.isbn }}{% endif %}
     </p>
     {% endif %}
-    {% if ed.description %}<p>{{ ed.description }}</p>{% endif %}
+    {% if ed.description %}<p>{{ ed.description | safe }}</p>{% endif %}
     {% if ed.url %}<p><a href="{{ ed.url }}" target="_blank" rel="noopener">{{ ed.url }}</a></p>{% endif %}
     {% if ed.excerpt_pdf %}<p><a href="{{ ed.excerpt_pdf | url }}">Excerpt (PDF)</a></p>{% endif %}
     {% if ed.reviews %}

@@ -12,7 +12,9 @@ layout: _includes/base.njk
   {% else %}<h3>{{ pub.subtype or pub.type | capitalize }}</h3>{% endif %}
 
   <div class="pub-body">
-    {% if pub.cover_image %}
+    {% if pub.hero_image %}
+    <img src="{{ pub.hero_image | url }}" alt="Cover of {{ pub.title }}" class="pub-hero" loading="lazy">
+    {% elif pub.cover_image %}
     <img src="{{ pub.cover_image | url }}" alt="Cover of {{ pub.title }}" class="book-cover" loading="lazy">
     {% endif %}
 
@@ -31,22 +33,27 @@ layout: _includes/base.njk
         {% if pub.isbn %}ISBN {{ pub.isbn }}.{% endif %}
       </p>
 
+      {% if pub.description %}<p>{{ pub.description | safe }}</p>{% endif %}
+
       <p class="pub-links">
         {% if pub.url_worldcat %}<a href="{{ pub.url_worldcat }}" target="_blank" rel="noopener">WorldCat</a>{% endif %}
-        {% if pub.url_publisher %} · <a href="{{ pub.url_publisher }}" target="_blank" rel="noopener">Publisher</a>{% endif %}
-        {% if pub.order_pdf %} · <a href="{{ pub.order_pdf | url }}">Order form (PDF)</a>{% endif %}
-        {% if pub.doi %} · <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+        {% if pub.url_publisher %}<a href="{{ pub.url_publisher }}" target="_blank" rel="noopener">Publisher</a>{% endif %}
+        {% if pub.url_cadmus %}<a href="{{ pub.url_cadmus }}" target="_blank" rel="noopener">Free version (Cadmus, EUI repository)</a>{% endif %}
+        {% if pub.order_pdf %}<a href="{{ pub.order_pdf | url }}">Order form (PDF)</a>{% endif %}
+        {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
       </p>
     </div>
   </div>
 
   {% if pub.reviews %}
-  <div class="reviews">
+  <details class="reviews">
+    <summary>{{ pub.reviews | length }} review{% if pub.reviews | length != 1 %}s{% endif %}</summary>
     {% for review in pub.reviews %}
     <blockquote class="review">
       <p>{{ review.quote }}</p>
       <footer>
         {{ review.reviewer }}
+        {% if review.note %} ({{ review.note }}){% endif %}
         {% if review.venue %} in <em>{{ review.venue }}</em>{% endif %}
         {% if review.volume %}, vol. {{ review.volume }}{% endif %}
         {% if review.issue %}, no. {{ review.issue }}{% endif %}
@@ -55,7 +62,8 @@ layout: _includes/base.njk
       </footer>
     </blockquote>
     {% endfor %}
-  </div>
+    {% if pub.reviews_note %}<p class="reviews-note">{{ pub.reviews_note }}</p>{% endif %}
+  </details>
   {% endif %}
 </article>
 {% endfor %}
