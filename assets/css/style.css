@@ -1,0 +1,262 @@
+/* ── Reset & Base ───────────────────────────────────────── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html { font-size: 16px; }
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #333;
+  background: #f5f3f0;
+  line-height: 1.65;
+}
+
+a { color: #2255a4; }
+a:hover { color: #113380; }
+
+/* ── Layout ─────────────────────────────────────────────── */
+.site-header {
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+  padding: 0.8rem 1rem;
+}
+
+.header-inner { max-width: 960px; margin: 0 auto; }
+
+.site-title a {
+  font-family: "Book Antiqua", Palatino, serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: #111;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+
+.site-nav {
+  background: #efefef;
+  border-bottom: 1px solid #ddd;
+}
+
+.site-nav ul {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.site-nav li a {
+  display: block;
+  padding: 0.5rem 0.85rem;
+  font-family: Arial, sans-serif;
+  font-size: 0.82rem;
+  color: #333;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+}
+
+.site-nav li a:hover,
+.site-nav li.active a {
+  background: #e0ddd8;
+  color: #111;
+  border-bottom-color: #2255a4;
+}
+
+.page-layout {
+  max-width: 960px;
+  margin: 1.5rem auto;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: 180px 1fr;
+  gap: 2rem;
+  align-items: start;
+}
+
+.sidebar {
+  font-family: Arial, sans-serif;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.sidebar h3 {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #333;
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.2rem;
+}
+
+.sidebar ul { list-style: none; margin: 0.4rem 0 1rem; }
+.sidebar li { margin: 0.2rem 0; }
+.sidebar hr { border: none; border-top: 1px solid #ddd; margin: 0.8rem 0; }
+.sidebar p { margin: 0.3rem 0; }
+
+.main-content {
+  background: #fff;
+  padding: 1.5rem 2rem;
+  border: 1px solid #ddd;
+  min-height: 400px;
+}
+
+.main-content h2 {
+  font-family: "Book Antiqua", Palatino, serif;
+  font-size: 1.3rem;
+  font-weight: normal;
+  color: #111;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1.2rem;
+}
+
+.main-content h3 {
+  font-family: "Book Antiqua", Palatino, serif;
+  font-size: 1rem;
+  color: #222;
+  margin: 1.4rem 0 0.5rem;
+}
+
+.main-content h4 {
+  font-family: "Book Antiqua", Palatino, serif;
+  font-size: 0.95rem;
+  color: #333;
+  margin: 1rem 0 0.3rem;
+}
+
+.main-content p { margin: 0.5rem 0; font-size: 0.88rem; }
+.main-content ul, .main-content ol { margin: 0.5rem 0 0.5rem 1.4rem; font-size: 0.88rem; }
+.main-content li { margin: 0.2rem 0; }
+
+/* ── CV ─────────────────────────────────────────────────── */
+.cv-section { margin-bottom: 1.5rem; }
+
+.cv-list { display: grid; gap: 0.6rem; }
+
+.cv-entry {
+  display: grid;
+  grid-template-columns: 100px 1fr;
+  gap: 0.5rem;
+  font-size: 0.88rem;
+  align-items: start;
+}
+
+.cv-year {
+  font-weight: bold;
+  color: #555;
+  font-family: Arial, sans-serif;
+  font-size: 0.82rem;
+  padding-top: 0.15rem;
+}
+
+.cv-detail { }
+.cv-detail em { color: #666; font-size: 0.85rem; }
+
+/* ── Publications ───────────────────────────────────────── */
+.publication {
+  margin-bottom: 2.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid #eee;
+}
+
+.pub-body {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+}
+
+.book-cover {
+  width: 90px;
+  height: auto;
+  border: 1px solid #ccc;
+  flex-shrink: 0;
+}
+
+.pub-meta { flex: 1; }
+.pub-title { font-size: 0.95rem; margin-bottom: 0.4rem; }
+.pub-links { font-size: 0.82rem; color: #555; margin-top: 0.4rem; }
+.pub-links a { color: #2255a4; }
+
+.reviews { margin-top: 1rem; }
+
+blockquote.review {
+  margin: 0.8rem 0;
+  padding: 0.6rem 1rem;
+  border-left: 3px solid #ccc;
+  background: #fafafa;
+  font-size: 0.85rem;
+}
+
+blockquote.review p { margin-bottom: 0.3rem; }
+
+blockquote.review footer {
+  font-size: 0.8rem;
+  color: #666;
+  font-style: italic;
+}
+
+/* Articles list */
+.decade-group { margin-bottom: 1.5rem; }
+.decade-group h3 { font-size: 0.95rem; color: #555; border-bottom: 1px solid #eee; margin-bottom: 0.6rem; }
+
+.pub-list { list-style: none; margin: 0; padding: 0; }
+
+.pub-item {
+  display: grid;
+  grid-template-columns: 42px 1fr;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+  font-size: 0.88rem;
+  align-items: start;
+}
+
+.pub-year { font-weight: bold; color: #666; font-family: Arial, sans-serif; font-size: 0.8rem; }
+.pub-venue { display: block; color: #666; font-size: 0.82rem; }
+.pub-contributors { display: block; color: #888; font-size: 0.8rem; }
+
+.orcid-link { margin-top: 1.5rem; font-size: 0.85rem; color: #666; }
+
+.placeholder-note {
+  background: #fff8e1;
+  border: 1px solid #ffe082;
+  padding: 0.6rem 1rem;
+  font-size: 0.85rem;
+  border-radius: 3px;
+}
+
+/* Editions */
+.editions-section { margin-bottom: 1.5rem; }
+.edition-entry { margin-bottom: 1.2rem; padding-bottom: 1rem; border-bottom: 1px solid #eee; font-size: 0.88rem; }
+.status-note { color: #999; font-style: italic; font-size: 0.82rem; }
+
+/* Museum work */
+.museum-section { margin-bottom: 1.5rem; }
+.exhibition-entry { margin-bottom: 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid #eee; font-size: 0.88rem; }
+.original-title { color: #666; margin-bottom: 0.3rem; }
+.exhibition-stage { margin: 0.5rem 0; }
+.exhibition-img { width: 130px; height: auto; float: left; margin: 0 1rem 0.5rem 0; border: 1px solid #ccc; }
+.img-caption { font-size: 0.78rem; color: #888; clear: both; }
+
+.related-work-list { list-style: none; margin: 0; padding: 0; }
+.related-work-item { margin-bottom: 0.8rem; font-size: 0.88rem; }
+
+/* ── Footer ─────────────────────────────────────────────── */
+.site-footer {
+  max-width: 960px;
+  margin: 2rem auto 1rem;
+  padding: 0 1rem;
+  font-family: Arial, sans-serif;
+  font-size: 0.78rem;
+  color: #888;
+  border-top: 1px solid #ddd;
+  padding-top: 0.8rem;
+}
+
+/* ── Responsive ─────────────────────────────────────────── */
+@media (max-width: 660px) {
+  .page-layout { grid-template-columns: 1fr; }
+  .sidebar { order: 2; border-top: 1px solid #ddd; padding-top: 1rem; margin-top: 1rem; }
+  .cv-entry { grid-template-columns: 80px 1fr; }
+  .pub-body { flex-direction: column; }
+  .book-cover { width: 70px; }
+}
