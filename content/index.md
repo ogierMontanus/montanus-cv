@@ -6,7 +6,7 @@ permalink: /
 
 ## Holger Berg, historian
 
-I am a historian with a particular focus on in early modern German and the Golden Age of Danish literature during the nineteenth century. I am employed at the [Hans Christian Andersen Centre](http://www.sdu.dk/hca), University of Southern Denmark.
+I am a historian with a particular focus on the history of early modern Germany and the Golden Age of Danish literature during the nineteenth century. I am employed at the [Hans Christian Andersen Centre](http://www.sdu.dk/hca), University of Southern Denmark.
 
 ### Selected publications
 
