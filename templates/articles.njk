@@ -25,8 +25,16 @@ layout: _includes/base.njk
         {% else %}<em>{{ pub.title }}</em>{% endif %}
       </p>
       {% if pub.container_title %}
-      <p class="pub-venue">{{ pub.container_title }}</p>
+      <p class="pub-venue">
+        in: <em>{{ pub.container_title }}</em>{% if pub.editors %}. Ed. by {{ pub.editors | join(", ") }}{% endif %}
+      </p>
       {% endif %}
+      {% if pub.place or pub.publisher or pub.pages %}
+      <p class="pub-venue">
+        {% if pub.place %}{{ pub.place }}{% endif %}{% if pub.year %} {{ pub.year }}{% endif %}{% if pub.publisher %}, {{ pub.publisher }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}{% if pub.note %} ({{ pub.note }}){% endif %}
+      </p>
+      {% endif %}
+      {% if pub.status %}<p class="status-note">{{ pub.status }}</p>{% endif %}
       {% if pub.contributors %}
       <p class="pub-contributors">{{ pub.contributors | join(", ") }}</p>
       {% endif %}
