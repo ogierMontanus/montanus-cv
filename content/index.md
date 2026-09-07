@@ -38,6 +38,17 @@ My monograph [*Military Occupation under the Eyes of the Lord. Studies in Erfurt
 {% endfor %}
 </dl>
 
+#### Organization
+
+<dl class="cv-list">
+{% for item in organization %}
+<div class="cv-entry">
+  <dt class="cv-year">{{ item.years }}</dt>
+  <dd class="cv-detail">{{ item.description | safe }}</dd>
+</div>
+{% endfor %}
+</dl>
+
 ### Contact
 
 University of Southern Denmark · [nh@sdu.dk](mailto:nh@sdu.dk) · [ORCID 0000-0002-8496-7221](https://orcid.org/0000-0002-8496-7221)
