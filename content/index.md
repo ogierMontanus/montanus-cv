@@ -12,7 +12,7 @@ My research focuses on Erfurt during the Thirty Years War, the religious and cul
 
 ### Selected publication
 
-My monograph [*Military Occupation under the Eyes of the Lord. Studies in Erfurt during the Thirty Years War*](/montanus-cv/books/) (Göttingen: Vandenhoeck & Ruprecht, 2010) was defended as a Ph.D. thesis at the European University Institute in Florence in November 2008.
+My monograph [*Military Occupation under the Eyes of the Lord. Studies in Erfurt during the Thirty Years War*]({{ '/books/' | url }}) (Göttingen: Vandenhoeck & Ruprecht, 2010) was defended as a Ph.D. thesis at the European University Institute in Florence in November 2008.
 
 ### Contact
 

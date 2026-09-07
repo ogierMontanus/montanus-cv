@@ -42,7 +42,7 @@ layout: _includes/base.njk
     {% endif %}
     {% if ed.description %}<p>{{ ed.description }}</p>{% endif %}
     {% if ed.url %}<p><a href="{{ ed.url }}" target="_blank" rel="noopener">{{ ed.url }}</a></p>{% endif %}
-    {% if ed.excerpt_pdf %}<p><a href="{{ ed.excerpt_pdf }}">Excerpt (PDF)</a></p>{% endif %}
+    {% if ed.excerpt_pdf %}<p><a href="{{ ed.excerpt_pdf | url }}">Excerpt (PDF)</a></p>{% endif %}
     {% if ed.reviews %}
     {% for review in ed.reviews %}
     <blockquote class="review">

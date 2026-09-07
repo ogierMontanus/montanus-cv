@@ -17,8 +17,8 @@ layout: _includes/base.njk
     {% for stage in ex.stages %}
     <div class="exhibition-stage">
       {% if stage.image %}
-      <a href="{{ stage.image }}" target="_blank">
-        <img src="{{ stage.image }}" alt="{{ stage.image_caption }}" class="exhibition-img">
+      <a href="{{ stage.image | url }}" target="_blank" rel="noopener">
+        <img src="{{ stage.image | url }}" alt="{{ stage.image_caption }}" class="exhibition-img" loading="lazy">
       </a>
       {% endif %}
       <p>{{ loop.index }}. {{ stage.description }}{% if stage.date %}, {{ stage.date }}{% endif %}{% if stage.dates %}, {{ stage.dates }}{% endif %}
@@ -44,11 +44,11 @@ layout: _includes/base.njk
       {% if item.year %}<strong>{{ item.year }}:</strong>{% endif %}
       {{ item.description }}
       {% if item.pdf_front %}
-        <a href="{{ item.pdf_front }}">Front (PDF{% if item.note %}, {{ item.note }}{% endif %})</a>
-        · <a href="{{ item.pdf_rear }}">Rear (PDF)</a>
+        <a href="{{ item.pdf_front | url }}">Front (PDF{% if item.note %}, {{ item.note }}{% endif %})</a>
+        · <a href="{{ item.pdf_rear | url }}">Rear (PDF)</a>
       {% endif %}
       {% if item.image %}
-        <a href="{{ item.image }}" target="_blank">Photograph</a>
+        <a href="{{ item.image | url }}" target="_blank" rel="noopener">Photograph</a>
       {% endif %}
     </li>
     {% endfor %}
