@@ -203,6 +203,7 @@
   editors: ["Petra Söderlund", "Per Stam"]
   place: "Stockholm"
   publisher: "Svenska Vitterhetssamfundet"
+  pages: "131–147"
   status: "Accepted for publication; volume in preparation"
   include_on_site: true
 
@@ -244,47 +245,70 @@
 
 - orcid_put_code: "160710548"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710550"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710546"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710574"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710544"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710543"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710569"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710580"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710565"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710562"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710572"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710586"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710582"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710599"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710602"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710637"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710638"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710639"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710636"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710625"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710626"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710628"
   include_on_site: false
+  section: "editorial-texts"
 - orcid_put_code: "160710617"
   include_on_site: false
+  section: "editorial-texts"

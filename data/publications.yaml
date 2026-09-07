@@ -9,6 +9,7 @@
   - Per Stam
   place: Stockholm
   publisher: Svenska Vitterhetssamfundet
+  pages: 131–147
   status: Accepted for publication; volume in preparation
   include_on_site: true
 - orcid_put_code: '198274476'
@@ -19,6 +20,7 @@
   container_title: null
   doi: null
   isbn: '9788712076773'
+  pages: null
   contributors:
   - Ane Grum-Schwensen
   - Holger Berg
@@ -53,6 +55,7 @@
   container_title: H.C. Andersen ved skrivebordet
   doi: null
   isbn: '9788712076773'
+  pages: 8–25
   contributors:
   - Ane Grum-Schwensen
   - Holger Berg
@@ -66,6 +69,7 @@
   container_title: H.C. Andersen ved skrivebordet
   doi: null
   isbn: '9788712076773'
+  pages: 136–159
   contributors:
   - Holger Berg
   selected: false
@@ -79,6 +83,7 @@
   container_title: Orbis Litterarum
   doi: 10.1111/oli.12397
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
@@ -92,6 +97,7 @@
   container_title: null
   doi: null
   isbn: 978-87-92750-35-8
+  pages: null
   contributors:
   - Holger Berg
   selected: false
@@ -108,6 +114,7 @@
   container_title: Anderseniana
   doi: null
   isbn: null
+  pages: 40–75
   contributors:
   - Ane Grum-Schwensen
   - Holger Berg
@@ -130,10 +137,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710539'
   title: Indledning til Bjovulfs Drape eller det Oldnordiske Heltedigt
   subtitle: null
@@ -142,6 +151,7 @@
   container_title: Bjovulfs Drape eller det Oldnordiske Heltedigt
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vibeke Arendse Pedersen
   - Holger Berg
@@ -156,6 +166,7 @@
   container_title: Chor
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Stine Holst Petersen
   - Holger Berg
@@ -170,6 +181,7 @@
   container_title: Christoffer Columbus
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Steen Tullberg
@@ -186,6 +198,7 @@
     paa Femte Søndag efter Paaske
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Klaus Nielsen
@@ -200,6 +213,7 @@
   container_title: Krønike-Riim til Børne-Lærdom med Indledning og Anmærkninger
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Klaus Nielsen
@@ -214,6 +228,7 @@
   container_title: Om Krønikens Dyrkning
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Jon Tafdrup
   - Holger Berg
@@ -228,6 +243,7 @@
   container_title: 'Om historisk Vidskab eller: om Krønikens Begreb'
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Jon Tafdrup
   - Holger Berg
@@ -242,6 +258,7 @@
   container_title: Völunds Værksted
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Stine Holst Petersen
   - Holger Berg
@@ -256,10 +273,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710542'
   title: 'Lines in ''the stream of time'' (Tidens Strøm): A comparison of three chronological
     charts from nineteenth-century Denmark'
@@ -269,6 +288,7 @@
   container_title: SpatioTemporalities on the Line.
   doi: 10.1515/9783110467963-010
   isbn: 978-3-11-045551-9
+  pages: 186–225
   contributors:
   - Holger Berg
   selected: false
@@ -281,6 +301,7 @@
   container_title: Bjovulfs Drape eller det Oldnordiske Heltedigt
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vibeke Arendse Pedersen
   - Holger Berg
@@ -295,6 +316,7 @@
   container_title: Chor
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Stine Holst Petersen
   - Holger Berg
@@ -309,6 +331,7 @@
   container_title: Christoffer Columbus
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Steen Tullberg
@@ -323,6 +346,7 @@
   container_title: Krønike-Riim til Børne-Lærdom med Indledning og Anmærkninger
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Klaus Nielsen
@@ -337,6 +361,7 @@
   container_title: Om Krønikens Dyrkning
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Jon Tafdrup
   - Holger Berg
@@ -351,6 +376,7 @@
   container_title: 'Om historisk Vidskab eller: om Krønikens Begreb'
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Jon Tafdrup
   - Holger Berg
@@ -365,6 +391,7 @@
   container_title: Subskriptionsplan paa en Haandbog i Verdens-Historien
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Stine Holst Petersen
@@ -379,6 +406,7 @@
   container_title: Ving-Thors Hammer
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Stine Holst Petersen
   - Holger Berg
@@ -393,6 +421,7 @@
   container_title: Völunds Værksted
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Stine Holst Petersen
   - Holger Berg
@@ -408,6 +437,7 @@
   container_title: '[Subskriptionsindbydelse til] Haandbog i Middel-Alderens Historie'
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Jon Tafdrup
@@ -423,6 +453,7 @@
   container_title: '[Subskriptionsindbydelse til] Haandbog i Nyaars-Tidens Historie'
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Klaus Nielsen
@@ -437,6 +468,7 @@
   container_title: '[Subskriptionsindbydelse til] Nyaarstidens Historie'
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Klaus Nielsen
@@ -451,10 +483,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710541'
   title: Tekstredegørelse til Bjovulfs Drape eller det Oldnordiske Heltedigt
   subtitle: null
@@ -463,6 +497,7 @@
   container_title: Bjovulfs Drape eller det Oldnordiske Heltedigt
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vibeke Arendse Pedersen
   - Holger Berg
@@ -477,6 +512,7 @@
   container_title: Chor
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Stine Holst Petersen
   - Holger Berg
@@ -491,6 +527,7 @@
   container_title: Christoffer Columbus
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Steen Tullberg
@@ -505,6 +542,7 @@
   container_title: Om Krønikens Dyrkning
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Jon Tafdrup
   - Holger Berg
@@ -519,6 +557,7 @@
   container_title: 'Om historisk Vidskab eller: om Krønikens Begreb'
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Jon Tafdrup
   - Holger Berg
@@ -533,6 +572,7 @@
   container_title: Subskriptionsplan paa en Haandbog i Verdens-Historien
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Stine Holst Petersen
@@ -547,6 +587,7 @@
   container_title: Ving-Thors Hammer
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Stine Holst Petersen
   - Holger Berg
@@ -561,6 +602,7 @@
   container_title: Völunds Værksted
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Stine Holst Petersen
   - Holger Berg
@@ -576,6 +618,7 @@
   container_title: '[Subskriptionsindbydelse til] Haand-Bog i Middel-Alderens Historie'
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Jon Tafdrup
@@ -591,6 +634,7 @@
   container_title: '[Subskriptionsindbydelse til] Haandbog i Nyaars-Tidens Historie'
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Klaus Nielsen
@@ -605,6 +649,7 @@
   container_title: '[Subskriptionsindbydelse til] Nyaarstidens Historie'
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Klaus Nielsen
@@ -619,10 +664,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710544'
   title: '[Subskriptionsindbydelse til] Haandbog i Nyaars-Tidens Historie'
   subtitle: null
@@ -631,10 +678,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710543'
   title: '[Subskriptionsindbydelse til] Nyaarstidens Historie'
   subtitle: null
@@ -643,10 +692,12 @@
   container_title: Grundtvigs Værker
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: null
   title: Administering Justice and Bending the Legal Code. The Contested Implementation
     of the Swedish Articles of War, 1621–1650
@@ -668,10 +719,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710580'
   title: Haandbog i Verdens-Historien. Første Deel
   subtitle: null
@@ -680,10 +733,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710533'
   title: Indledning til En mærkelig Røst fra Sverrig
   subtitle: null
@@ -692,6 +747,7 @@
   container_title: En mærkelig Røst fra Sverrig
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Jon Tafdrup
   - Holger Berg
@@ -706,6 +762,7 @@
   container_title: En mærkelig Spaadom ogsaa om Dannemark efter en gammel Haandskrift
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Vanja Thaulow
@@ -720,6 +777,7 @@
   container_title: Haandbog i Verdens-Historien. Første Deel
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Ole Vind
   - Holger Berg
@@ -735,6 +793,7 @@
   container_title: Om den Lancasterske Methode
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Jon Tafdrup
   - Holger Berg
@@ -753,6 +812,7 @@
     Kjøbenhavnske Skydeselskab og Danske Broderskab den 14de August 1823
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Christian Alenkjær Frandsen
@@ -769,6 +829,7 @@
     Januarii 1812
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Ida Marie Klahn
@@ -783,6 +844,7 @@
   container_title: '[Danmark, deiligst i Vang og Vænge]'
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vibeke Arendse Pedersen
   - Holger Berg
@@ -797,6 +859,7 @@
   container_title: En mærkelig Røst fra Sverrig
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Jon Tafdrup
   - Holger Berg
@@ -812,6 +875,7 @@
   container_title: En mærkelig Spaadom ogsaa om Dannemark efter en gammel Haandskrift
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Vanja Thaulow
@@ -826,6 +890,7 @@
   container_title: Haandbog i Verdens-Historien. Første Deel
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Steen Tullberg
@@ -844,6 +909,7 @@
     Historie
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Henrik Yde
   - Holger Berg
@@ -860,6 +926,7 @@
   container_title: Om den Lancasterske Methode
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Jon Tafdrup
   - Holger Berg
@@ -876,6 +943,7 @@
     Kjøbenhavnske Skydeselskab og Danske Broderskab den 14de August 1823
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Christian Alenkjær Frandsen
@@ -893,6 +961,7 @@
     fra den fratrædende Fuglekonge, Cancellieraad og Procurator Wilse, i August 1823
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Christian Alenkjær Frandsen
@@ -909,6 +978,7 @@
     Januarii 1812
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Ida Marie Klahn
@@ -923,6 +993,7 @@
   container_title: '[Danmark, deiligst i Vang og Vænge]'
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vibeke Arendse Pedersen
   - Holger Berg
@@ -937,6 +1008,7 @@
   container_title: Til danske Hjerter
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vibeke Arendse Pedersen
   - Holger Berg
@@ -952,10 +1024,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710562'
   title: Sang til det kongelige kjøbenhavnske Skydeselskab og danske Broderskab, fra
     den fratrædende Fuglekonge, Cancellieraad og Procurator Wilse, i August 1823
@@ -965,10 +1039,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710536'
   title: Tekstredegørelse til En mærkelig Røst fra Sverrig
   subtitle: null
@@ -977,6 +1053,7 @@
   container_title: En mærkelig Røst fra Sverrig
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Jon Tafdrup
   - Holger Berg
@@ -992,6 +1069,7 @@
   container_title: En mærkelig Spaadom ogsaa om Dannemark efter en gammel Haandskrift
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Vanja Thaulow
@@ -1006,6 +1084,7 @@
   container_title: Om den Lancasterske Methode
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Jon Tafdrup
   - Holger Berg
@@ -1022,6 +1101,7 @@
     Januarii 1812
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Jon Tafdrup
@@ -1036,6 +1116,7 @@
   container_title: Til danske Hjerter
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vibeke Arendse Pedersen
   - Holger Berg
@@ -1050,6 +1131,7 @@
   container_title: '[Danmark, deiligst i Vang og Vænge]'
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vibeke Arendse Pedersen
   - Holger Berg
@@ -1065,10 +1147,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710586'
   title: Historisk Børne-Lærdom
   subtitle: null
@@ -1077,10 +1161,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710588'
   title: Indledning til Høstgildet
   subtitle: null
@@ -1089,6 +1175,7 @@
   container_title: Høstgildet
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Klaus Nielsen
   - Holger Berg
@@ -1104,6 +1191,7 @@
   container_title: Krønikens Gienmæle
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vanja Thaulow
   - Holger Berg
@@ -1119,6 +1207,7 @@
   container_title: Historisk Børne-Lærdom
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Else Riisager
@@ -1133,6 +1222,7 @@
   container_title: Farvel. (Til C. Molbech.)
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vanja Thaulow
   - Holger Berg
@@ -1147,6 +1237,7 @@
   container_title: Høstgildet
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Victoria Siersbæk
   - Klaus Nielsen
@@ -1162,6 +1253,7 @@
   container_title: Krønikens Gienmæle
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vanja Thaulow
   - Holger Berg
@@ -1176,6 +1268,7 @@
   container_title: Til min Ven Christian Molbech
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vanja Thaulow
   - Holger Berg
@@ -1190,6 +1283,7 @@
   container_title: Historisk Børne-Lærdom
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Else Riisager
@@ -1204,6 +1298,7 @@
   container_title: Farvel. (Til C. Molbech.)
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vanja Thaulow
   - Klaus Nielsen
@@ -1218,6 +1313,7 @@
   container_title: Historisk Børne-Lærdom
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Else Riisager
@@ -1232,6 +1328,7 @@
   container_title: Høstgildet
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Klaus Nielsen
   - Holger Berg
@@ -1246,6 +1343,7 @@
   container_title: Krønikens Gienmæle
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vanja Thaulow
   - Holger Berg
@@ -1260,6 +1358,7 @@
   container_title: Tidens Ström eller universal historisk Omrids
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Henrik Yde
@@ -1274,6 +1373,7 @@
   container_title: Til min Ven Christian Molbech
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vanja Thaulow
   - Holger Berg
@@ -1288,10 +1388,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: null
   title: Die Klänge des Krieges. Zur Akustik der Erfurter Chronistik, 1594–1664
   year: 2014
@@ -1311,6 +1413,7 @@
   container_title: Kort Begreb af Verdens Krønike i Sammenhæng
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Ole Vind
   - Holger Berg
@@ -1326,6 +1429,7 @@
   container_title: Muntre Yngling udi Livets Vaar
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
@@ -1339,6 +1443,7 @@
   container_title: Villemoes
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Else Riisager
@@ -1353,10 +1458,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710602'
   title: Muntre Yngling udi Livets Vaar
   subtitle: null
@@ -1365,10 +1472,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710598'
   title: Punktkommentarer til Kort Begreb af Verdens Krønike i Sammenhæng
   subtitle: null
@@ -1377,6 +1486,7 @@
   container_title: Kort Begreb af Verdens Krønike i Sammenhæng
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Steen Tullberg
@@ -1391,6 +1501,7 @@
   container_title: Muntre Yngling udi Livets Vaar
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Jon Tafdrup
@@ -1405,6 +1516,7 @@
   container_title: De Snekker mødtes i Kveld paa Hav
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Maria Jørgensen
@@ -1419,6 +1531,7 @@
   container_title: Muntre Yngling udi Livets Vaar
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
@@ -1431,6 +1544,7 @@
   container_title: Et Par Ord angaaende Revselsen i Politivennen No. 620
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Maria Jørgensen
@@ -1445,6 +1559,7 @@
   container_title: “Villemoes”
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Maria Jørgensen
@@ -1459,11 +1574,13 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vibeke A. Pedersen
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710638'
   title: Et Par Ord angaaende Revselsen i Politivennen No. 620
   subtitle: null
@@ -1472,11 +1589,13 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vibeke A. Pedersen
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710632'
   title: Indledning til Et Par Ord om vore Oldtids Minder
   subtitle: null
@@ -1485,6 +1604,7 @@
   container_title: Et Par Ord om vore Oldtids Minder
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Maria Jørgensen
   - Holger Berg
@@ -1499,6 +1619,7 @@
   container_title: Freias Pris
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Maria Jørgensen
   - Holger Berg
@@ -1515,6 +1636,7 @@
   container_title: Skolen for Livet og Academiet i Soer borgerlig betragtet
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Henrik Yde
   - Holger Berg
@@ -1529,6 +1651,7 @@
   container_title: Tilbagesyn paa København
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Maria Jørgensen
   - Holger Berg
@@ -1545,6 +1668,7 @@
     1809
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Stine Holst Petersen
   - Holger Berg
@@ -1559,6 +1683,7 @@
   container_title: Et Par Ord om vore Oldtids Minder
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Maria Jørgensen
   - Holger Berg
@@ -1573,6 +1698,7 @@
   container_title: Freias Pris
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Maria Jørgensen
   - Holger Berg
@@ -1588,6 +1714,7 @@
   container_title: Skolen for Livet og Academiet i Soer borgerlig betragtet
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Henrik Yde
   - Holger Berg
@@ -1602,6 +1729,7 @@
   container_title: Tilbagesyn paa København
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Maria Jørgensen
   - Holger Berg
@@ -1618,6 +1746,7 @@
     Høiskole i Soer
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Henrik Yde
   - Holger Berg
@@ -1634,6 +1763,7 @@
     1809
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Stine Holst Petersen
   - Holger Berg
@@ -1648,6 +1778,7 @@
   container_title: Freias Pris
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Maria Jørgensen
   - Holger Berg
@@ -1663,6 +1794,7 @@
   container_title: Skolen for Livet og Academiet i Soer borgerlig betragtet
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Henrik Yde
   - Holger Berg
@@ -1677,6 +1809,7 @@
   container_title: Tilbagesyn paa København
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Maria Jørgensen
   - Holger Berg
@@ -1693,6 +1826,7 @@
     Høiskole i Soer
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Henrik Yde
   - Holger Berg
@@ -1709,6 +1843,7 @@
     1809
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Stine Holst Petersen
   - Holger Berg
@@ -1723,11 +1858,13 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vibeke A. Pedersen
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710636'
   title: “Kiækheds Erindring, Willemoes [Kommer hid, I Piger smaae!]”
   subtitle: null
@@ -1736,11 +1873,13 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vibeke A. Pedersen
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710615'
   title: Die Handbibliothek des Nietzscheforschers Karl A. Schlechta
   subtitle: null
@@ -1749,6 +1888,7 @@
   container_title: Nietzscheforschung
   doi: 10.1524/nifo.2012.0026
   isbn: null
+  pages: 375–384
   contributors:
   - Holger Berg
   selected: false
@@ -1761,10 +1901,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '159383920'
   title: Indledning til "Arlichino-fejden"
   subtitle: null
@@ -1773,6 +1915,7 @@
   container_title: Til Arlichinos Forfatter!
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
@@ -1785,6 +1928,7 @@
   container_title: I Anledning af mit Syns Mistydning
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Johnny Johansen Kondrup
@@ -1799,6 +1943,7 @@
   container_title: Det Danske Fiir-Kløver
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Henrik Yde
   - Holger Berg
@@ -1813,6 +1958,7 @@
   container_title: Krigssang for Nordmænd
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Vibeke A. Pedersen
@@ -1827,6 +1973,7 @@
   container_title: Maskeradeballet i Dannemark 1808. Et Syn
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Johnny Johansen Kondrup
@@ -1841,6 +1988,7 @@
   container_title: Til Nordmænd om en Norsk Høi-Skole
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Henrik Yde
   - Holger Berg
@@ -1855,10 +2003,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710628'
   title: Maskeradeballet i Dannemark 1808. Et Syn
   subtitle: null
@@ -1867,10 +2017,12 @@
   container_title: null
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: '160710623'
   title: Punktkommentarer til "I Anledning af mit Syns Mistydning"
   subtitle: null
@@ -1879,6 +2031,7 @@
   container_title: I Anledning af mit Syns Mistydning
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Johnny Johansen Kondrup
@@ -1893,6 +2046,7 @@
   container_title: Til Arlichinos Forfatter
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Johnny Johansen Kondrup
@@ -1907,6 +2061,7 @@
   container_title: Det Danske Fiir-Kløver eller Danskheden partisk betragtet
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Henrik Yde
   - Holger Berg
@@ -1921,6 +2076,7 @@
   container_title: Maskeradeballet i Dannemark 1808. Et Syn
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
@@ -1933,6 +2089,7 @@
   container_title: Til Nordmænd om en Norsk Høi-Skole
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Henrik Yde
   - Holger Berg
@@ -1947,6 +2104,7 @@
   container_title: Krigssang for Nordmænd
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Johnny Johansen Kondrup
@@ -1961,6 +2119,7 @@
   container_title: Krigssang for Nordmænd
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Henrik Yde
@@ -1974,6 +2133,7 @@
   container_title: Til Publikum!
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Vanja Thaulow
   - Holger Berg
@@ -1989,6 +2149,7 @@
   container_title: Det Danske Fiir-Kløver
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Henrik Yde
   - Holger Berg
@@ -2005,6 +2166,7 @@
     No. 72
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Vanja Thaulow
@@ -2020,6 +2182,7 @@
   container_title: Maskeradeballet i Dannemark 1808. Et Syn
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Johnny Johansen Kondrup
@@ -2034,6 +2197,7 @@
   container_title: Om Schiller og Bruden fra Messina
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Maria Jørgensen
   - Vibeke A. Pedersen
@@ -2050,6 +2214,7 @@
   container_title: Svar paa Resensjonen over min Afhandling om Religion og Liturgi
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Vanja Thaulow
@@ -2065,6 +2230,7 @@
   container_title: Til Nordmænd om en Norsk Høi-Skole
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Henrik Yde
   - Holger Berg
@@ -2079,6 +2245,7 @@
   container_title: I Anledningen af mit Syns Mistydning
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Johnny Johansen Kondrup
@@ -2094,6 +2261,7 @@
   container_title: Til Arlichinos Forfatter!
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   - Johnny Johansen Kondrup
@@ -2108,10 +2276,12 @@
   container_title: Grundtvigs Værker
   doi: null
   isbn: null
+  pages: null
   contributors:
   - Holger Berg
   selected: false
   include_on_site: false
+  section: editorial-texts
 - orcid_put_code: null
   title: Der Werdegang eines erfolgreichen städtischen Pfarrers. Stengers Ausbildung
     und Amtszeit (1629–1649)
@@ -2133,6 +2303,7 @@
   container_title: 1066 - Tidsskrift for Historie
   doi: null
   isbn: null
+  pages: 34–35
   contributors:
   - Nils Holger Berg
   selected: false

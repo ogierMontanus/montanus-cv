@@ -46,7 +46,7 @@ layout: _includes/base.njk
   </div>
 
   {% if pub.reviews %}
-  <details class="reviews">
+  <details class="reviews" open>
     <summary>{{ pub.reviews | length }} review{% if pub.reviews | length != 1 %}s{% endif %}</summary>
     {% for review in pub.reviews %}
     <blockquote class="review">
