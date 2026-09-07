@@ -6,11 +6,11 @@ permalink: /
 
 ## Holger Berg, historian
 
-I am a historian specialising in early modern German history, religious and cultural history, and the history of the Thirty Years War. I amemployed at the [Hans Christian Andersen Centre](http://www.sdu.dk/hca), University of Southern Denmark.
+I am a historian with a particular focus on in early modern German and the Golden Age of Danish literature during the nineteenth century. I am employed at the [Hans Christian Andersen Centre](http://www.sdu.dk/hca), University of Southern Denmark.
 
-My research focuses on Erfurt during the Thirty Years War, the religious and cultural experience of military occupation, and the history of chronological representation. I also work on critical editions of early modern and nineteenth-century texts.
+### Selected publications
 
-### Selected publication
+I am coeditor of the digital scholarly edition of the manuscripts of Hans Christian Andersen. My coeditor Ane Grum-Schwensen and I recently published the book with 12 contributions that each explore aspects of Andersen's creative work.
 
 My monograph [*Military Occupation under the Eyes of the Lord. Studies in Erfurt during the Thirty Years War*]({{ '/books/' | url }}) (Göttingen: Vandenhoeck & Ruprecht, 2010) was defended as a Ph.D. thesis at the European University Institute in Florence in November 2008.
 
