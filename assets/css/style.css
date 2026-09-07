@@ -389,6 +389,35 @@ blockquote.review footer {
 
 .orcid-link { margin-top: 1.8rem; font-size: 0.88rem; color: var(--color-text-muted); font-family: var(--font-sans); }
 
+.editorial-texts {
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+}
+.editorial-texts h3 {
+  font-family: var(--font-sans);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-text-faint);
+  margin: 0 0 0.6rem;
+}
+.editorial-texts-intro { font-size: 0.85rem; color: var(--color-text-muted); margin-bottom: 0.8rem; }
+.editorial-list { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 2rem; }
+.editorial-list li {
+  font-size: 0.82rem;
+  color: var(--color-text-muted);
+  padding: 0.3rem 0;
+  break-inside: avoid;
+}
+.editorial-list .pub-year {
+  font-weight: 600;
+  color: var(--color-text-faint);
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  margin-right: 0.4rem;
+}
+
 .placeholder-note {
   background: #fdf6e3;
   border: 1px solid #eddca0;
@@ -462,6 +491,7 @@ blockquote.review footer {
   .pub-body { flex-direction: column; }
   .book-cover { width: 90px; }
   .pub-hero { width: 100%; max-width: 220px; }
+  .editorial-list { columns: 1; }
 
   .nav-toggle-label { display: flex; }
 
