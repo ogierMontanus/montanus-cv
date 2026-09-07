@@ -24,14 +24,13 @@ layout: _includes/base.njk
         {% if pub.doi %}<a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener"><em>{{ pub.title }}</em></a>
         {% else %}<em>{{ pub.title }}</em>{% endif %}
       </p>
-      {% if pub.container_title %}
+      {% if pub.container_title or pub.place or pub.publisher or pub.pages %}
       <p class="pub-venue">
-        in: <em>{{ pub.container_title }}</em>{% if pub.editors %}. Ed. by {{ pub.editors | join(", ") }}{% endif %}
-      </p>
-      {% endif %}
-      {% if pub.place or pub.publisher or pub.pages %}
-      <p class="pub-venue">
-        {% if pub.place %}{{ pub.place }}{% endif %}{% if pub.year %} {{ pub.year }}{% endif %}{% if pub.publisher %}, {{ pub.publisher }}{% endif %}{% if pub.pages %}, pp. {{ pub.pages }}{% endif %}{% if pub.note %} ({{ pub.note }}){% endif %}
+        {%- if pub.container_title %}in: <em>{{ pub.container_title }}</em>{% if pub.editors %}. Ed. by {{ pub.editors | join(", ") }}{% endif %}{% endif -%}
+        {%- if pub.place %}{% if pub.container_title %}. {% endif %}{{ pub.place }}{% if pub.year %} {{ pub.year }}{% endif %}{% endif -%}
+        {%- if pub.publisher %}, {{ pub.publisher }}{% endif -%}
+        {%- if pub.pages %}, pp. {{ pub.pages }}{% endif -%}
+        {%- if pub.note %} ({{ pub.note }}){% endif -%}
       </p>
       {% endif %}
       {% if pub.status %}<p class="status-note">{{ pub.status }}</p>{% endif %}
@@ -48,3 +47,20 @@ layout: _includes/base.njk
   Full bibliography on
   <a href="https://orcid.org/0000-0002-8496-7221" target="_blank" rel="noopener">ORCID</a>.
 </p>
+
+{% set editorialTexts = publications | filterBySection("editorial-texts") | sortByYear %}
+{% if editorialTexts.length > 0 %}
+<section class="editorial-texts">
+  <h3>Editorial texts in scholarly editions</h3>
+  <p class="editorial-texts-intro">
+    Individual text-critical editions of works by N.F.S. Grundtvig, published 2011–2020 as
+    part of the digital edition <em>Grundtvigs Værker</em> (see
+    <a href="{{ '/editions/' | url }}">Editions</a> for the project as a whole).
+  </p>
+  <ul class="editorial-list">
+    {% for pub in editorialTexts %}
+    <li><span class="pub-year">{{ pub.year }}</span> {{ pub.title }}</li>
+    {% endfor %}
+  </ul>
+</section>
+{% endif %}

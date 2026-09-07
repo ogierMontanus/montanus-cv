@@ -9,6 +9,7 @@ Usage:
 
 import argparse
 import json
+import re
 import sys
 import time
 from pathlib import Path
@@ -73,6 +74,15 @@ def get_nested(d, *keys, default=None):
     return d if d != {} else default
 
 
+def extract_pages(raw):
+    """Pull a page range out of ORCID's embedded BibTeX citation, when present."""
+    citation_value = get_nested(raw, "citation", "citation-value") or ""
+    m = re.search(r'pages\s*=\s*"([^"]+)"', citation_value)
+    if not m:
+        return None
+    return m.group(1).replace("--", "–")
+
+
 def transform_work(raw):
     work_type = raw.get("type", "")
     if work_type not in ACCEPTED_TYPES:
@@ -99,6 +109,7 @@ def transform_work(raw):
         "container_title": journal_val,
         "doi": ext_ids.get("doi"),
         "isbn": ext_ids.get("isbn"),
+        "pages": extract_pages(raw),
         "contributors": contributors or None,
         "selected": False,
         "include_on_site": True,
