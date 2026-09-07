@@ -32,6 +32,7 @@ module.exports = function(eleventyConfig) {
       output: "_site"
     },
     templateFormats: ["njk", "md"],
-    markdownTemplateEngine: "njk"
+    markdownTemplateEngine: "njk",
+    pathPrefix: "/montanus-cv/"
   };
 };

@@ -13,7 +13,7 @@ layout: _includes/base.njk
 
   <div class="pub-body">
     {% if pub.cover_image %}
-    <img src="{{ pub.cover_image }}" alt="Cover of {{ pub.title }}" class="book-cover">
+    <img src="{{ pub.cover_image | url }}" alt="Cover of {{ pub.title }}" class="book-cover" loading="lazy">
     {% endif %}
 
     <div class="pub-meta">
@@ -34,7 +34,7 @@ layout: _includes/base.njk
       <p class="pub-links">
         {% if pub.url_worldcat %}<a href="{{ pub.url_worldcat }}" target="_blank" rel="noopener">WorldCat</a>{% endif %}
         {% if pub.url_publisher %} · <a href="{{ pub.url_publisher }}" target="_blank" rel="noopener">Publisher</a>{% endif %}
-        {% if pub.order_pdf %} · <a href="{{ pub.order_pdf }}">Order form (PDF)</a>{% endif %}
+        {% if pub.order_pdf %} · <a href="{{ pub.order_pdf | url }}">Order form (PDF)</a>{% endif %}
         {% if pub.doi %} · <a href="https://doi.org/{{ pub.doi }}" target="_blank" rel="noopener">DOI</a>{% endif %}
       </p>
     </div>
