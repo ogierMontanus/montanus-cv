@@ -8,7 +8,9 @@ permalink: /
 
 I am a historian with a particular focus on in early modern German and the Golden Age of Danish literature during the nineteenth century. I am employed at the [Hans Christian Andersen Centre](http://www.sdu.dk/hca), University of Southern Denmark.
 
-### Selected publication
+### Selected publications
+
+I am coeditor of the digital scholarly edition of the manuscripts of Hans Christian Andersen. My coeditor Ane Grum-Schwensen and I recently published the book with 12 contributions that each explore aspects of Andersen's creative work.
 
 My monograph [*Military Occupation under the Eyes of the Lord. Studies in Erfurt during the Thirty Years War*]({{ '/books/' | url }}) (Göttingen: Vandenhoeck & Ruprecht, 2010) was defended as a Ph.D. thesis at the European University Institute in Florence in November 2008.
 
