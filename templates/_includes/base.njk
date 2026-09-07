@@ -5,25 +5,25 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if title %}{{ title }} — {% endif %}Holger Berg, historian</title>
   <meta name="description" content="Academic website of Holger Berg (Nils Holger Nemeth Berg), historian at the University of Southern Denmark.">
-  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | url }}">
 </head>
 <body>
   <header class="site-header">
     <div class="header-inner">
       <div class="site-title">
-        <a href="/">Holger Berg, historian</a>
+        <a href="{{ '/' | url }}">Holger Berg, historian</a>
       </div>
     </div>
   </header>
 
   <nav class="site-nav">
     <ul>
-      <li{% if page.url == "/" %} class="active"{% endif %}><a href="/">Home</a></li>
-      <li{% if page.url == "/books/" %} class="active"{% endif %}><a href="/books/">Books</a></li>
-      <li{% if page.url == "/articles/" %} class="active"{% endif %}><a href="/articles/">Articles</a></li>
-      <li{% if page.url == "/editions/" %} class="active"{% endif %}><a href="/editions/">Editions</a></li>
-      <li{% if page.url == "/museum-work/" %} class="active"{% endif %}><a href="/museum-work/">Museum work</a></li>
-      <li{% if page.url == "/cv/" %} class="active"{% endif %}><a href="/cv/">Curriculum vitae</a></li>
+      <li{% if page.url == "/" %} class="active"{% endif %}><a href="{{ '/' | url }}">Home</a></li>
+      <li{% if page.url == "/books/" %} class="active"{% endif %}><a href="{{ '/books/' | url }}">Books</a></li>
+      <li{% if page.url == "/articles/" %} class="active"{% endif %}><a href="{{ '/articles/' | url }}">Articles</a></li>
+      <li{% if page.url == "/editions/" %} class="active"{% endif %}><a href="{{ '/editions/' | url }}">Editions</a></li>
+      <li{% if page.url == "/museum-work/" %} class="active"{% endif %}><a href="{{ '/museum-work/' | url }}">Museum work</a></li>
+      <li{% if page.url == "/cv/" %} class="active"{% endif %}><a href="{{ '/cv/' | url }}">Curriculum vitae</a></li>
     </ul>
   </nav>
 

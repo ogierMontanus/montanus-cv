@@ -30,6 +30,8 @@ npm run sync-orcid
 
 The site is built with Eleventy, which outputs the static site to the **`_site/`** folder (see the `dir.output` setting in `.eleventy.js`). `_site/` is git-ignored and is **not** committed to the repository — it is generated at build time.
 
+The site is served as a GitHub **project page** at `https://<user>.github.io/montanus-cv/`, not at the domain root. Because of this, `.eleventy.js` sets `pathPrefix: "/montanus-cv/"`, and all internal links/asset references in templates use Eleventy's `url` filter (e.g. `{{ '/assets/css/style.css' | url }}`) so they resolve under that subpath instead of 404ing at the domain root. If the site is ever moved to a custom domain or a `<user>.github.io` root repo, update or remove `pathPrefix` accordingly.
+
 Deployment is automated via `.github/workflows/deploy.yml`: on every push to `main`, GitHub Actions runs `npm ci && npm run build` and then publishes the contents of `_site/` to the `gh-pages` branch using [`peaceiris/actions-gh-pages`](https://github.com/peaceiris/actions-gh-pages).
 
 If configuring GitHub Pages manually (e.g. in repository Settings → Pages), set:
