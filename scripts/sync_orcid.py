@@ -120,8 +120,10 @@ def dedupe_by_doi(transformed):
     """Collapse duplicate ORCID works sharing the same DOI.
 
     ORCID sometimes harvests the same publication twice from different sources
-    (e.g. a truncated title from one indexer, the full title from another).
-    Keep whichever copy has the more complete title/subtitle.
+    (e.g. a truncated title from one indexer, the full title from another, each
+    with different fields populated). Keep whichever copy has the more complete
+    title/subtitle, but backfill any fields it's missing (e.g. pages) from the
+    discarded duplicate rather than losing that data.
     """
     by_doi = {}
     order = []
@@ -137,9 +139,12 @@ def dedupe_by_doi(transformed):
         else:
             existing_len = len(existing.get("title") or "") + len(existing.get("subtitle") or "")
             new_len = len(item.get("title") or "") + len(item.get("subtitle") or "")
-            if new_len > existing_len:
-                order[order.index(existing)] = item
-                by_doi[doi] = item
+            winner, loser = (item, existing) if new_len > existing_len else (existing, item)
+            for key, value in loser.items():
+                if value and not winner.get(key):
+                    winner[key] = value
+            order[order.index(existing)] = winner
+            by_doi[doi] = winner
     return order
 
 
@@ -151,6 +156,19 @@ def load_overrides():
 
 
 def merge(transformed, overrides):
+    """Merge freshly-fetched ORCID works with data/orcid_overrides.yaml.
+
+    Guarantee: every field set in an override patch always wins over whatever
+    ORCID supplies for that field, on every run — patches are re-applied on top
+    of the fresh fetch each time, never the other way around. This is what
+    protects manually-curated data (page ranges, corrected years, added
+    editors/place/publisher, hero images, review text, etc.) from being
+    silently reverted by a future ORCID sync. The only exception is the
+    `selected`/`include_on_site` flags, which use a "more restrictive wins"
+    rule instead of plain overwrite (see below). Manual entries
+    (`orcid_put_code: null`) are simply appended and never touched by ORCID
+    data at all, since they don't correspond to any fetched put-code.
+    """
     override_map = {}
     manual_entries = []
     for o in overrides:
@@ -185,6 +203,30 @@ def merge(transformed, overrides):
     return merged
 
 
+def verify_overrides_applied(merged, overrides):
+    """Regression guard: fail loudly if a put-code patch's fields didn't survive
+    into the final merged output, instead of silently losing curated data."""
+    by_put_code = {str(m["orcid_put_code"]): m for m in merged if m.get("orcid_put_code")}
+    problems = []
+    for o in overrides:
+        pc = o.get("orcid_put_code")
+        if not pc:
+            continue
+        item = by_put_code.get(str(pc))
+        if item is None:
+            continue  # the ORCID work this patch targets is no longer fetched
+        for k, v in o.items():
+            if k in ("orcid_put_code", "selected", "include_on_site"):
+                continue
+            if item.get(k) != v:
+                problems.append(f"put-code {pc}: field '{k}' expected {v!r}, got {item.get(k)!r}")
+    if problems:
+        print("ERROR: override patches did not survive the merge:", file=sys.stderr)
+        for p in problems:
+            print(f"  - {p}", file=sys.stderr)
+        sys.exit(1)
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true")
@@ -216,6 +258,7 @@ def main():
     # merge overrides
     overrides = load_overrides()
     result = merge(transformed, overrides)
+    verify_overrides_applied(result, overrides)
 
     yaml_out = yaml.dump(result, allow_unicode=True, default_flow_style=False,
                          sort_keys=False)
