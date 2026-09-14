@@ -47,6 +47,20 @@
       her og kald naturvidenskab videnskabeligere end tekstvidenskab!"
 
       '
+- orcid_put_code: '226486882'
+  title: H.C. Andersens Eventyr og Historier - den digitale manuskriptudgave
+  subtitle: EHDM
+  year: 2025
+  type: book
+  container_title: H.C. Andersens Eventyr og Historier - den digitale manuskriptudgave
+  doi: null
+  isbn: null
+  pages: null
+  contributors:
+  - Ane Grum-Schwensen
+  - Holger Berg
+  selected: false
+  include_on_site: true
 - orcid_put_code: '198274477'
   title: Indledning
   subtitle: null
@@ -77,13 +91,14 @@
 - orcid_put_code: '138595699'
   title: 'Increasing access to ephemeral prints: How to construct and analyze a dataset
     from the Golden Age of literature in nineteenth‐century Denmark'
-  subtitle: null
+  subtitle: How to construct and analyze a dataset from the Golden Age of literature
+    in nineteenth-century Denmark
   year: 2023
   type: journal-article
   container_title: Orbis Litterarum
   doi: 10.1111/oli.12397
   isbn: null
-  pages: null
+  pages: 464–482
   contributors:
   - Holger Berg
   selected: false
@@ -2431,6 +2446,7 @@
   - Imbi Sooman
   place: Wien
   publisher: WUV-Universitätsverlag
+  pages: 63–87
   include_on_site: true
 - orcid_put_code: null
   title: The limited political relevance of dreams in two Lutheran realms. Observations

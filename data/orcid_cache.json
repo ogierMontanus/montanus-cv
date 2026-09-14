@@ -758,6 +758,110 @@
   },
   {
     "created-date": {
+      "value": 1789188895667
+    },
+    "last-modified-date": {
+      "value": 1789188895667
+    },
+    "source": {
+      "source-orcid": null,
+      "source-client-id": {
+        "uri": "https://orcid.org/client/0000-0002-6423-5541",
+        "path": "0000-0002-6423-5541",
+        "host": "orcid.org"
+      },
+      "source-name": {
+        "value": "University of Southern Denmark"
+      },
+      "assertion-origin-orcid": null,
+      "assertion-origin-client-id": null,
+      "assertion-origin-name": null
+    },
+    "put-code": 226486882,
+    "path": "/0000-0002-8496-7221/work/226486882",
+    "title": {
+      "title": {
+        "value": "H.C. Andersens Eventyr og Historier - den digitale manuskriptudgave"
+      },
+      "subtitle": {
+        "value": "EHDM"
+      },
+      "translated-title": null
+    },
+    "journal-title": {
+      "value": "H.C. Andersens Eventyr og Historier - den digitale manuskriptudgave"
+    },
+    "short-description": "Den digitale manuskriptudgave blev begyndt i 2020. I 2025 skiftede udgaven adresse. Denne titel dækker udgaven fra 2025",
+    "citation": {
+      "citation-type": "bibtex",
+      "citation-value": "@book{8a176c2508144687a694504a31b92bb4,\n  title     = \"H.C. Andersens Eventyr og Historier - den digitale manuskriptudgave: EHDM\",\n  abstract  = \"Den digitale manuskriptudgave blev begyndt i 2020. I 2025 skiftede udgaven adresse. Denne titel d{\\ae}kker udgaven fra 2025\",\n  editor    = \"Ane Grum-Schwensen and Holger Berg\",\n  year      = \"2025\",\n  language  = \"Dansk\",\n  series    = \"H.C. Andersens Eventyr og Historier - den digitale manuskriptudgave\",\n  publisher = \"H.C. Andersen Centret, Syddansk Universitet\",\n  edition   = \"2\",\n}"
+    },
+    "type": "book",
+    "publication-date": {
+      "year": {
+        "value": "2025"
+      },
+      "month": null,
+      "day": null
+    },
+    "external-ids": {
+      "external-id": [
+        {
+          "external-id-type": "source-work-id",
+          "external-id-value": "8a176c25-0814-4687-a694-504a31b92bb4",
+          "external-id-normalized": {
+            "value": "8a176c25-0814-4687-a694-504a31b92bb4",
+            "transient": true
+          },
+          "external-id-normalized-error": null,
+          "external-id-url": null,
+          "external-id-relationship": "self"
+        }
+      ]
+    },
+    "url": {
+      "value": "https://portal.findresearcher.sdu.dk/en/publications/8a176c25-0814-4687-a694-504a31b92bb4"
+    },
+    "contributors": {
+      "contributor": [
+        {
+          "contributor-orcid": {
+            "uri": "https://orcid.org/0000-0001-7558-1493",
+            "path": "0000-0001-7558-1493",
+            "host": null
+          },
+          "credit-name": {
+            "value": "Ane Grum-Schwensen"
+          },
+          "contributor-email": null,
+          "contributor-attributes": {
+            "contributor-sequence": null,
+            "contributor-role": "editor"
+          }
+        },
+        {
+          "contributor-orcid": {
+            "uri": "https://orcid.org/0000-0002-8496-7221",
+            "path": "0000-0002-8496-7221",
+            "host": null
+          },
+          "credit-name": {
+            "value": "Holger Berg"
+          },
+          "contributor-email": null,
+          "contributor-attributes": {
+            "contributor-sequence": null,
+            "contributor-role": "editor"
+          }
+        }
+      ]
+    },
+    "language-code": "da",
+    "country": null,
+    "visibility": "public"
+  },
+  {
+    "created-date": {
       "value": 1689239983994
     },
     "last-modified-date": {

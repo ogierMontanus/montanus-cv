@@ -1,6 +1,15 @@
 # Manual entries and patches for publications not in ORCID or needing enrichment.
 # Entries with orcid_put_code: null are appended as manual items.
 # Entries with a put-code patch the corresponding ORCID-fetched entry.
+#
+# GUARANTEE: every field set here always wins over ORCID's data, on every
+# monthly sync — this file is the durable source of truth for curated data
+# (page ranges, corrected years, editors/place/publisher, hero images, review
+# text, etc.). sync_orcid.py verifies this on every run (verify_overrides_applied)
+# and fails loudly rather than silently dropping a patch. This is also how the
+# 2012-2017 Grundtvig editions are hidden from Books and instead routed to the
+# "Editorial texts" section of Articles (include_on_site: false + section:
+# "editorial-texts") — see bottom of this file.
 
 # ── Manual entries (absent from ORCID) ──────────────────────────────────────
 
@@ -182,6 +191,7 @@
   editors: ["Stefan Donecker", "Imbi Sooman"]
   place: "Wien"
   publisher: "WUV-Universitätsverlag"
+  pages: "63–87"
   include_on_site: true
 
 - orcid_put_code: null
