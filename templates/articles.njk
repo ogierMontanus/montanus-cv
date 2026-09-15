@@ -26,7 +26,7 @@ layout: _includes/base.njk
       </p>
       {% if pub.container_title or pub.place or pub.publisher or pub.pages %}
       <p class="pub-venue">
-        {%- if pub.container_title %}in: <em>{{ pub.container_title }}</em>{% if pub.editors %}. Ed. by {{ pub.editors | join(", ") }}{% endif %}{% endif -%}
+        {%- if pub.container_title %}in: {% if pub.container_url %}<a href="{{ pub.container_url }}" target="_blank" rel="noopener"><em>{{ pub.container_title }}</em></a>{% else %}<em>{{ pub.container_title }}</em>{% endif %}{% if pub.editors %}. Ed. by {{ pub.editors | join(", ") }}{% endif %}{% endif -%}
         {%- if pub.place %}{% if pub.container_title %}. {% endif %}{{ pub.place }}{% if pub.year %} {{ pub.year }}{% endif %}{% endif -%}
         {%- if pub.publisher %}, {{ pub.publisher }}{% endif -%}
         {%- if pub.pages %}, pp. {{ pub.pages }}{% endif -%}

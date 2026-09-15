@@ -537,3 +537,47 @@
   include_on_site: false
 - orcid_put_code: "159841396"  # 2017 — Tekstredegørelse til [Subskriptionsindbydelse til] Nyaarstidens Historie
   include_on_site: false
+
+# The 13 genuine "Indledning til ..." introductions by Holger Berg (kept visible
+# on Articles, per comment above) get a shared container_title/container_url so
+# they point to the Grundtvigs Værker edition instead of duplicating their own
+# work's title as if it were a separate container.
+- orcid_put_code: "158544202"  # 2017 — Indledning til Christoffer Columbus
+  container_title: "Grundtvigs Værker"
+  container_url: "http://www.grundtvigsvaerker.dk/"
+- orcid_put_code: "160710549"  # 2017 — Indledning til Hvad skal vi giøre, at vi kan arve det evige Liv?
+  container_title: "Grundtvigs Værker"
+  container_url: "http://www.grundtvigsvaerker.dk/"
+- orcid_put_code: "159383919"  # 2017 — Indledning til Krønike-Riim til Børne-Lærdom med Indledning og Anmærkninger
+  container_title: "Grundtvigs Værker"
+  container_url: "http://www.grundtvigsvaerker.dk/"
+- orcid_put_code: "160710567"  # 2016 — Indledning til En mærkelig Spaadom ogsaa om Dannemark efter en gammel Haandskrift
+  container_title: "Grundtvigs Værker"
+  container_url: "http://www.grundtvigsvaerker.dk/"
+- orcid_put_code: "160710563"  # 2016 — Indledning til Sang til Deres Majestæter Kongen og Dronningen ...
+  container_title: "Grundtvigs Værker"
+  container_url: "http://www.grundtvigsvaerker.dk/"
+- orcid_put_code: "160710570"  # 2016 — Indledning til Til Dannerkongen Frederik hin Sjette paa Hans Fødselsdag den 28de Januarii 1812
+  container_title: "Grundtvigs Værker"
+  container_url: "http://www.grundtvigsvaerker.dk/"
+- orcid_put_code: "160710583"  # 2015 — Indledning til Historisk Børne-Lærdom og Tidens Ström eller universal historisk Omrids
+  container_title: "Grundtvigs Værker"
+  container_url: "http://www.grundtvigsvaerker.dk/"
+- orcid_put_code: "160710523"  # 2014 — Indledning til Muntre Yngling udi Livets Vaar
+  container_title: "Grundtvigs Værker"
+  container_url: "http://www.grundtvigsvaerker.dk/"
+- orcid_put_code: "160710604"  # 2014 — Indledning til "Villemoes", De Snekker mødtes i Kveld paa Hav, ...
+  container_title: "Grundtvigs Værker"
+  container_url: "http://www.grundtvigsvaerker.dk/"
+- orcid_put_code: "159383920"  # 2012 — Indledning til "Arlichino-fejden"
+  container_title: "Grundtvigs Værker"
+  container_url: "http://www.grundtvigsvaerker.dk/"
+- orcid_put_code: "160710622"  # 2012 — Indledning til "I Anledning af mit Syns Mistydning"
+  container_title: "Grundtvigs Værker"
+  container_url: "http://www.grundtvigsvaerker.dk/"
+- orcid_put_code: "160710612"  # 2012 — Indledning til Krigssang til Nordmænd
+  container_title: "Grundtvigs Værker"
+  container_url: "http://www.grundtvigsvaerker.dk/"
+- orcid_put_code: "160710624"  # 2012 — Indledning til Maskeradeballet i Dannemark 1808. Et Syn
+  container_title: "Grundtvigs Værker"
+  container_url: "http://www.grundtvigsvaerker.dk/"
