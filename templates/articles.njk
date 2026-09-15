@@ -50,16 +50,20 @@ layout: _includes/base.njk
 
 {% set editorialTexts = publications | filterBySection("editorial-texts") | sortByYear %}
 {% if editorialTexts.length > 0 %}
-<section class="editorial-texts">
+<section class="editorial-texts" id="editorial-texts">
   <h3>Editorial texts in scholarly editions</h3>
   <p class="editorial-texts-intro">
-    Individual text-critical editions of works by N.F.S. Grundtvig, published 2011–2020 as
-    part of the digital edition <em>Grundtvigs Værker</em> (see
+    Individual text-critical editions of works by N.F.S. Grundtvig, edited by Holger Berg
+    and published 2011–2020 as part of the digital edition <em>Grundtvigs Værker</em> (see
     <a href="{{ '/editions/' | url }}">Editions</a> for the project as a whole).
   </p>
   <ul class="editorial-list">
     {% for pub in editorialTexts %}
-    <li><span class="pub-year">{{ pub.year }}</span> {{ pub.title }}</li>
+    <li>
+      <span class="pub-year">{{ pub.year }}</span> {{ pub.title }}
+      {% set coEditors = pub.contributors | otherContributors("Holger Berg") %}
+      {% if coEditors.length > 0 %}<span class="pub-coeditor">(with {{ coEditors | join(", ") }})</span>{% endif %}
+    </li>
     {% endfor %}
   </ul>
 </section>

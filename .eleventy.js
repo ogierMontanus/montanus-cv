@@ -13,6 +13,9 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("filterBySection", (items, section) =>
     (items || []).filter(p => p.section === section)
   );
+  eleventyConfig.addFilter("otherContributors", (contributors, exclude) =>
+    (contributors || []).filter(c => c !== exclude)
+  );
   eleventyConfig.addFilter("sortByYear", items =>
     [...(items || [])].sort((a, b) => (b.year || 0) - (a.year || 0))
   );
