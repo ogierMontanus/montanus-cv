@@ -10,16 +10,16 @@ ongoing:
       Den digitale manuskriptudgave" (EHDM, https://hca.sdu.dk/manus).
 
 published:
-  - title: "Grundtvig Works"
+  - title: "Grundtvigs Værker"
     type: "critical-edition"
     institution: "Grundtvig Study Center, Aarhus University"
     url: "http://www.grundtvigsvaerker.dk/"
     description: >
       From 2011 to 2020, I have published <a href="/montanus-cv/articles/#editorial-texts">23
-      works</a> for the digital, text-critical edition Grundtvigs Værker. The individual
-      editions can be seen at www.grundtvigsværker.dk and are mentioned on
+      works</a> for the digital, text-critical edition of the complete printed works of N.F.S. Grundtvig (1783-1872). The individual
+      editions can be seen at <a href="www.grundtvigsværker.dk">www.grundtvigsværker.dk</a> and are mentioned on
       <a href="https://pure.au.dk/portal/da/persons/teonhb%40cas.au.dk/publications/?type=%2Fdk%2Fatira%2Fpure%2Fresearchoutput%2Fresearchoutputtypes%2Fbookanthology%2Fbook"
-      target="_blank" rel="noopener">the PURE-portal of Aarhus University</a>.
+      target="_blank" rel="noopener">the PURE-portal of Aarhus University</a>. Technical note: The site grundtvigsværker.dk currently (2026) does not have any updated SSL-certificate, so you cannot access it via the https-protocol, but the http-address is safe to visit.
 
   - title: "Hans Christian Andersen's Fairy Tales and Stories"
     type: "translation-assistance"
