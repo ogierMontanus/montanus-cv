@@ -52,7 +52,7 @@
   subtitle: EHDM
   year: 2025
   type: book
-  container_title: H.C. Andersens Eventyr og Historier - den digitale manuskriptudgave
+  container_title: null
   doi: null
   isbn: null
   pages: null
@@ -194,7 +194,6 @@
   year: 2017
   type: book-chapter
   container_title: Grundtvigs Værker
-  container_url: http://www.grundtvigsvaerker.dk/
   doi: null
   isbn: null
   pages: null
@@ -204,6 +203,7 @@
   - Kirsten Vad
   selected: false
   include_on_site: true
+  container_url: http://www.grundtvigsvaerker.dk/
 - orcid_put_code: '160710549'
   title: Indledning til Hvad skal vi giøre, at vi kan arve det evige Liv? Aftensangsprædiken
     paa Femte Søndag efter Paaske
@@ -211,7 +211,6 @@
   year: 2017
   type: book-chapter
   container_title: Grundtvigs Værker
-  container_url: http://www.grundtvigsvaerker.dk/
   doi: null
   isbn: null
   pages: null
@@ -221,13 +220,13 @@
   - Henrik Yde
   selected: false
   include_on_site: true
+  container_url: http://www.grundtvigsvaerker.dk/
 - orcid_put_code: '159383919'
   title: Indledning til Krønike-Riim til Børne-Lærdom med Indledning og Anmærkninger
   subtitle: null
   year: 2017
   type: book-chapter
   container_title: Grundtvigs Værker
-  container_url: http://www.grundtvigsvaerker.dk/
   doi: null
   isbn: null
   pages: null
@@ -237,6 +236,7 @@
   - Kirsten Vad
   selected: false
   include_on_site: true
+  container_url: http://www.grundtvigsvaerker.dk/
 - orcid_put_code: '160710535'
   title: Indledning til Om Krønikens Dyrkning
   subtitle: null
@@ -777,7 +777,6 @@
   year: 2016
   type: book-chapter
   container_title: Grundtvigs Værker
-  container_url: http://www.grundtvigsvaerker.dk/
   doi: null
   isbn: null
   pages: null
@@ -787,6 +786,7 @@
   - Steen Tullberg
   selected: false
   include_on_site: true
+  container_url: http://www.grundtvigsvaerker.dk/
 - orcid_put_code: '160710560'
   title: Indledning til Haandbog i Verdens-Historien. Første Deel
   subtitle: null
@@ -827,7 +827,6 @@
   year: 2016
   type: book-chapter
   container_title: Grundtvigs Værker
-  container_url: http://www.grundtvigsvaerker.dk/
   doi: null
   isbn: null
   pages: null
@@ -837,6 +836,7 @@
   - Klaus Nielsen
   selected: false
   include_on_site: true
+  container_url: http://www.grundtvigsvaerker.dk/
 - orcid_put_code: '160710570'
   title: Indledning til Til Dannerkongen Frederik hin Sjette paa Hans Fødselsdag den
     28de Januarii 1812
@@ -844,7 +844,6 @@
   year: 2016
   type: book-chapter
   container_title: Grundtvigs Værker
-  container_url: http://www.grundtvigsvaerker.dk/
   doi: null
   isbn: null
   pages: null
@@ -854,6 +853,7 @@
   - Klaus Nielsen
   selected: false
   include_on_site: true
+  container_url: http://www.grundtvigsvaerker.dk/
 - orcid_put_code: '160710573'
   title: Indledning til [Danmark, deiligst Vang og Vænge]
   subtitle: null
@@ -1223,7 +1223,6 @@
   year: 2015
   type: book-chapter
   container_title: Grundtvigs Værker
-  container_url: http://www.grundtvigsvaerker.dk/
   doi: null
   isbn: null
   pages: null
@@ -1233,6 +1232,7 @@
   - Klaus Nielsen
   selected: false
   include_on_site: true
+  container_url: http://www.grundtvigsvaerker.dk/
 - orcid_put_code: '160710590'
   title: Punktkommentarer til Farvel. (Til C. Molbech.)
   subtitle: null
@@ -1446,7 +1446,6 @@
   year: 2014
   type: book-chapter
   container_title: Grundtvigs Værker
-  container_url: http://www.grundtvigsvaerker.dk/
   doi: null
   isbn: null
   pages: null
@@ -1454,6 +1453,7 @@
   - Holger Berg
   selected: false
   include_on_site: true
+  container_url: http://www.grundtvigsvaerker.dk/
 - orcid_put_code: '160710604'
   title: Indledning til “Villemoes”, De Snekker mødtes i Kveld paa Hav, “Et Par Ord
     angaaende Revselsen i Politivennen No. 620” og “Kommer hid, I Piger smaae!”
@@ -1461,7 +1461,6 @@
   year: 2014
   type: book-chapter
   container_title: Grundtvigs Værker
-  container_url: http://www.grundtvigsvaerker.dk/
   doi: null
   isbn: null
   pages: null
@@ -1469,9 +1468,9 @@
   - Holger Berg
   - Else Riisager
   - Klaus Nielsen
-  - Vibeke A. Pedersen
   selected: false
   include_on_site: true
+  container_url: http://www.grundtvigsvaerker.dk/
 - orcid_put_code: '160710599'
   title: Kort Begreb af Verdens Krønike i Sammenhæng
   subtitle: null
@@ -1935,7 +1934,6 @@
   year: 2012
   type: book-chapter
   container_title: Grundtvigs Værker
-  container_url: http://www.grundtvigsvaerker.dk/
   doi: null
   isbn: null
   pages: null
@@ -1943,13 +1941,13 @@
   - Holger Berg
   selected: false
   include_on_site: true
+  container_url: http://www.grundtvigsvaerker.dk/
 - orcid_put_code: '160710622'
   title: Indledning til "I Anledning af mit Syns Mistydning"
   subtitle: null
   year: 2012
   type: book-chapter
   container_title: Grundtvigs Værker
-  container_url: http://www.grundtvigsvaerker.dk/
   doi: null
   isbn: null
   pages: null
@@ -1959,6 +1957,7 @@
   - Vibeke A. Pedersen
   selected: false
   include_on_site: true
+  container_url: http://www.grundtvigsvaerker.dk/
 - orcid_put_code: '160710610'
   title: Indledning til Det Danske Fiir-Kløver eller Danskheden partisk betragtet
   subtitle: null
@@ -1980,7 +1979,6 @@
   year: 2012
   type: book-chapter
   container_title: Grundtvigs Værker
-  container_url: http://www.grundtvigsvaerker.dk/
   doi: null
   isbn: null
   pages: null
@@ -1990,13 +1988,13 @@
   - Johnny Johansen Kondrup
   selected: false
   include_on_site: true
+  container_url: http://www.grundtvigsvaerker.dk/
 - orcid_put_code: '160710624'
   title: Indledning til Maskeradeballet i Dannemark 1808. Et Syn
   subtitle: null
   year: 2012
   type: book-chapter
   container_title: Grundtvigs Værker
-  container_url: http://www.grundtvigsvaerker.dk/
   doi: null
   isbn: null
   pages: null
@@ -2006,6 +2004,7 @@
   - Vibeke A. Pedersen
   selected: false
   include_on_site: true
+  container_url: http://www.grundtvigsvaerker.dk/
 - orcid_put_code: '160710642'
   title: Indledning til Til Nordmænd om en Norsk Høi-Skole
   subtitle: null

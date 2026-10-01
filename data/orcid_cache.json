@@ -84,7 +84,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -184,7 +184,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -273,7 +273,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0001-7558-1493",
             "path": "0000-0001-7558-1493",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Ane Grum-Schwensen"
@@ -288,7 +288,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -303,7 +303,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-3485-5686",
             "path": "0000-0002-3485-5686",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Jacob Bøggild"
@@ -403,16 +403,13 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
           },
           "contributor-email": null,
-          "contributor-attributes": {
-            "contributor-sequence": null,
-            "contributor-role": null
-          }
+          "contributor-attributes": null
         }
       ]
     },
@@ -503,7 +500,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0001-7558-1493",
             "path": "0000-0001-7558-1493",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Ane Grum-Schwensen"
@@ -518,7 +515,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -620,7 +617,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0001-7558-1493",
             "path": "0000-0001-7558-1493",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Ane Grum-Schwensen"
@@ -635,7 +632,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -739,7 +736,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -761,7 +758,7 @@
       "value": 1789188895667
     },
     "last-modified-date": {
-      "value": 1789188895667
+      "value": 1789793652003
     },
     "source": {
       "source-orcid": null,
@@ -788,13 +785,11 @@
       },
       "translated-title": null
     },
-    "journal-title": {
-      "value": "H.C. Andersens Eventyr og Historier - den digitale manuskriptudgave"
-    },
+    "journal-title": null,
     "short-description": "Den digitale manuskriptudgave blev begyndt i 2020. I 2025 skiftede udgaven adresse. Denne titel dækker udgaven fra 2025",
     "citation": {
       "citation-type": "bibtex",
-      "citation-value": "@book{8a176c2508144687a694504a31b92bb4,\n  title     = \"H.C. Andersens Eventyr og Historier - den digitale manuskriptudgave: EHDM\",\n  abstract  = \"Den digitale manuskriptudgave blev begyndt i 2020. I 2025 skiftede udgaven adresse. Denne titel d{\\ae}kker udgaven fra 2025\",\n  editor    = \"Ane Grum-Schwensen and Holger Berg\",\n  year      = \"2025\",\n  language  = \"Dansk\",\n  series    = \"H.C. Andersens Eventyr og Historier - den digitale manuskriptudgave\",\n  publisher = \"H.C. Andersen Centret, Syddansk Universitet\",\n  edition   = \"2\",\n}"
+      "citation-value": "@book{8a176c2508144687a694504a31b92bb4,\n  title     = \"H.C. Andersens Eventyr og Historier - den digitale manuskriptudgave: EHDM\",\n  abstract  = \"Den digitale manuskriptudgave blev begyndt i 2020. I 2025 skiftede udgaven adresse. Denne titel d{\\ae}kker udgaven fra 2025\",\n  editor    = \"Ane Grum-Schwensen and Holger Berg\",\n  note      = \"H.C. Andersens Eventyr og Historier - den digitale manuskriptudgave\",\n  year      = \"2025\",\n  language  = \"Dansk\",\n  publisher = \"H.C. Andersen Centret, Syddansk Universitet\",\n  edition   = \"2\",\n}"
     },
     "type": "book",
     "publication-date": {
@@ -828,7 +823,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0001-7558-1493",
             "path": "0000-0001-7558-1493",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Ane Grum-Schwensen"
@@ -843,7 +838,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -1040,7 +1035,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -1140,7 +1135,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -1229,7 +1224,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0001-7558-1493",
             "path": "0000-0001-7558-1493",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Ane Grum-Schwensen"
@@ -1244,7 +1239,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -1368,7 +1363,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -1453,7 +1448,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -1551,7 +1546,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -1660,7 +1655,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -1758,7 +1753,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -1867,7 +1862,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -1976,7 +1971,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -2096,7 +2091,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -2205,7 +2200,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -2314,7 +2309,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -2410,7 +2405,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -2508,7 +2503,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -2617,7 +2612,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -2715,7 +2710,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -2824,7 +2819,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -2944,7 +2939,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -3053,7 +3048,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -3151,7 +3146,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -3271,7 +3266,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -3380,7 +3375,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -3478,7 +3473,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -3587,7 +3582,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -3696,7 +3691,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -3803,7 +3798,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -3901,7 +3896,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -4010,7 +4005,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -4108,7 +4103,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -4228,7 +4223,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -4337,7 +4332,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -4435,7 +4430,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -4555,7 +4550,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -4664,7 +4659,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -4762,7 +4757,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -4871,7 +4866,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -4980,7 +4975,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -5087,7 +5082,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -5172,7 +5167,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -5259,7 +5254,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -5344,7 +5339,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -5429,7 +5424,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -5527,7 +5522,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -5625,7 +5620,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -5745,7 +5740,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -5865,7 +5860,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -5963,7 +5958,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -6072,7 +6067,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -6192,7 +6187,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -6301,7 +6296,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -6399,7 +6394,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -6508,7 +6503,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -6650,7 +6645,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -6781,7 +6776,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -6879,7 +6874,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -6988,7 +6983,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -7097,7 +7092,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -7217,7 +7212,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -7326,7 +7321,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -7422,7 +7417,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -7507,7 +7502,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -7605,7 +7600,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -7703,7 +7698,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -7823,7 +7818,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -7921,7 +7916,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -8041,7 +8036,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -8150,7 +8145,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -8246,7 +8241,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -8331,7 +8326,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -8429,7 +8424,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -8538,7 +8533,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -8636,7 +8631,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -8756,7 +8751,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -8876,7 +8871,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -8985,7 +8980,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -9094,7 +9089,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -9192,7 +9187,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -9323,7 +9318,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -9410,7 +9405,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -9530,7 +9525,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -9639,7 +9634,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -9737,7 +9732,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -9857,7 +9852,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -9953,7 +9948,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -10051,7 +10046,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -10160,7 +10155,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -10247,7 +10242,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -10354,7 +10349,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -10439,7 +10434,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -10526,7 +10521,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -10635,7 +10630,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -10744,7 +10739,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -10853,7 +10848,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -10940,7 +10935,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -11049,7 +11044,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -11167,7 +11162,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -11263,7 +11258,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -11361,7 +11356,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -11470,7 +11465,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -11579,7 +11574,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -11688,7 +11683,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -11797,7 +11792,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -11906,7 +11901,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -12015,7 +12010,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -12124,7 +12119,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -12233,7 +12228,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -12342,7 +12337,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -12451,7 +12446,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -12560,7 +12555,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -12669,7 +12664,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -12778,7 +12773,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -12887,7 +12882,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -12996,7 +12991,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -13103,7 +13098,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -13199,7 +13194,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -13290,7 +13285,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -13403,7 +13398,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -13523,7 +13518,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -13608,7 +13603,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -13695,7 +13690,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -13782,7 +13777,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -13902,7 +13897,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -14000,7 +13995,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -14120,7 +14115,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -14216,7 +14211,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -14301,7 +14296,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -14388,7 +14383,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -14497,7 +14492,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -14617,7 +14612,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -14715,7 +14710,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -14813,7 +14808,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -14911,7 +14906,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -15020,7 +15015,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -15140,7 +15135,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -15238,7 +15233,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -15358,7 +15353,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -15500,7 +15495,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -15587,7 +15582,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -15718,7 +15713,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -15816,7 +15811,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -15936,7 +15931,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -16045,7 +16040,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Holger Berg"
@@ -16136,7 +16131,7 @@
           "contributor-orcid": {
             "uri": "https://orcid.org/0000-0002-8496-7221",
             "path": "0000-0002-8496-7221",
-            "host": null
+            "host": "orcid.org"
           },
           "credit-name": {
             "value": "Nils Holger Berg"
